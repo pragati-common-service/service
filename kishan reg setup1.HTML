@@ -1,0 +1,2089 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0057)file:///C:/Users/pk/Desktop/Agriculture%20Department.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/Site.css" rel="stylesheet" type="text/css"><link href="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/Menu.css" rel="Stylesheet" type="text/css"><link href="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/TableCSSCode.css" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/bootstrapNew.min.css">
+    <script type="text/javascript" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/bootstrap.min.js.download"></script>
+    
+    </head><body>.
+         
+ 
+    <script type="text/jscript">
+
+
+
+        function startTimer(duration, display) {
+            var timer = duration, minutes, seconds;
+            setInterval(function () {
+                minutes = parseInt(timer / 60, 10)
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    timer = duration;
+                }
+            }, 1000);
+        }
+
+        window.onload = function () {
+            var fiveMinutes = 60 * 15,
+                display = document.querySelector('#time');
+            startTimer(fiveMinutes, display);
+        };
+
+    </script>
+    <style>
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {
+            background-color: #008CBA;
+        }
+        /* Blue */
+        .button3 {
+            background-color: #f44336;
+        }
+        /* Red */
+        .button4 {
+            background-color: #4CAF50;
+            color: black;
+        }
+        /* Gray */
+        .button5 {
+            background-color: #555555;
+        }
+        /* Black */
+    </style>
+    <style type="text/css">
+        .modalBackground {
+            background-color: Black;
+            filter: alpha(opacity=90);
+            opacity: 0.8;
+        }
+
+        .modalPopup {
+            background-color: #FFFFFF;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 300px;
+            height: 140px;
+        }
+    </style>
+    <style type="text/css">
+        .modalBackground {
+            background-color: Yellow;
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+        }
+
+        .modalPopup {
+            background-color: #ffffdd;
+            border-width: 3px;
+            border-style: solid;
+            border-color: Gray;
+            padding: 5px;
+            width: 350px;
+            height: 300px;
+        }
+
+        .modalBackground1 {
+            background-color: Black;
+            filter: alpha(opacity=90);
+            opacity: 0.8;
+            /*background-color: Black;
+        filter: alpha(opacity=60);
+        opacity: 0.6;*/
+        }
+
+        .modalPopup1 {
+            background-color: #FFFFFF;
+            width: 100%;
+            border: 3px solid #0DA9D0;
+            border-radius: 12px;
+            padding: 0;
+        }
+
+            .modalPopup1 .header {
+                background-color: #2FBDF1;
+                height: 50px;
+                color: White;
+                line-height: 50px;
+                text-align: center;
+                font-weight: bold;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+            }
+
+            .modalPopup1 .body {
+                min-height: 50px;
+                line-height: 30px;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            .modalPopup1 .footer {
+                padding: 6px;
+            }
+
+            .modalPopup1 .yes, .modalPopup .no {
+                height: 23px;
+                color: White;
+                line-height: 50px;
+                text-align: center;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+
+            .modalPopup1 .yes {
+                background-color: #2FBDF1;
+                border: 1px solid #0DA9D0;
+            }
+
+            .modalPopup1 .no {
+                background-color: #9F9F9F;
+                border: 1px solid #5C5C5C;
+            }
+
+        .auto-style1 {
+            background-color: #00FF99;
+        }
+    </style>
+
+    <script language="JavaScript" type="text/javascript">
+        var fadebgcolor = "white"
+        var fadearray = new Array() //array to cache fadeshow instances
+        var fadeclear = new Array() //array to cache corresponding clearinterval pointers
+
+        var dom = (document.getElementById) //modern dom browsers
+        var iebrowser = document.all
+    </script>
+     <script type="text/javascript" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/FusionCharts.js.download"></script>
+      
+    <script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/SlideShow.js.download" type="text/javascript"></script>
+    <script type="text/javascript src=" https:="" ajax.googleapis.com="" ajax="" libs="" jquery="" 3.3.1="" jquery.min.js"=""></script>
+     <script type="text/javascript" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/jquery-1.12.4.js.download"></script>
+    <title>
+	Agriculture Department
+</title>
+    
+ 
+    <script type="text/javascript" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/coin-slider.js.download"></script>
+    <link rel="stylesheet" href="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/coin-slider-styles.css" type="text/css">
+
+
+
+    <script type="text/javascript">
+
+
+        function UncheckOthers(objchkbox) {
+            //Get the parent control of checkbox which is the checkbox list
+            var objchkList = objchkbox.parentNode.parentNode.parentNode;
+            //Get the checkbox controls in checkboxlist
+            var chkboxControls = objchkList.getElementsByTagName("input");
+            //Loop through each check box controls
+            for (var i = 0; i < chkboxControls.length; i++) {
+                //Check the current checkbox is not the one user selected
+                if (chkboxControls[i] != objchkbox && objchkbox.checked) {
+                    //Uncheck all other checkboxes
+                    chkboxControls[i].checked = false;
+                }
+            }
+        }
+    </script>
+    <script language="javascript" type="text/javascript">
+        function ValidateAlpha(evt) {
+            var keyCode = (evt.which) ? evt.which : evt.keyCode
+            //        if ((keyCode < 65 || keyCode > 90) && (keyCode < 97 || keyCode > 123))
+            //            return false;
+            //        return true;
+            if (keyCode > 32 && (keyCode < 65 || keyCode > 90) && (keyCode < 97 || keyCode > 122)) {
+                return false;
+            }
+            return true;
+        }
+
+        function noSpace(obj) {
+            obj.value = obj.value.replace(/\s/g, "");
+        }
+        function letterwithspace(evt) {
+            evt = (evt) ? evt : event;
+            var charcode = (evt.charCode) ? evt.charCode : ((evt.keyCode) ? evt.keyCode : ((evt.which) ? evt.which : 0));
+            if (charcode > 32 && (charcode < 65 || charcode > 90) && (charcode < 97 || charcode > 122)) {
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <script type="text/javascript">
+        function validate(evt) {
+
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode > 31
+            && (charCode < 48 || charCode > 57))
+                return false;
+
+            return true;
+        }
+    </script>
+    <script type="text/ecmascript">
+        function CalculateAge(DOB) {
+            if (DOB.value != '') {
+                now = new Date()
+                dob = DOB.value.split('/');
+                if (dob.length === 3) {
+                    born = new Date(dob[2], dob[1] * 1 - 1, dob[0]);
+                    age = Math.floor((now.getTime() - born.getTime()) / (365.25 * 24 * 60 * 60 * 1000));
+                    if (isNaN(age)) {
+                        document.getElementById('lblAge').innerHTML = '';
+                        alert('Input date is incorrect!');
+                    }
+                    else {
+                        document.getElementById('lblAge').innerHTML = age;
+                    }
+                }
+            }
+        }
+
+    </script>
+    <script language="javascript" type="text/javascript">
+        function checkdate(sender, args) {
+            if (sender._selectedDate > new Date()) {
+                alert("You cannot select a day earlier that today !");
+                sender._selectedDate = new Date();
+                sender._textbox.set_Value(sender._selectedDate.format(sender._format))
+            }
+        }
+    </script>
+    <script language="JavaScript" type="text/javascript">
+        //Message to display whenever right click on website
+        var message = "Sorry, Right Click have been disabled.";
+        function click(e) {
+            if (document.all) {
+                if (event.button == 2 || event.button == 3) {
+                    //                alert(message);
+                    alert("Sorry, right click is not allowed !!");
+                    return false;
+                }
+            }
+            else {
+                if (e.button == 2 || e.button == 3) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    // alert(message);
+                    alert("Sorry, right click is not allowed !!");
+                    return false;
+                }
+            }
+        }
+        if (document.all) {
+            document.onmousedown = click;
+        }
+        else {
+            document.onclick = click;
+        }
+
+
+        document.oncontextmenu = function () {
+            return false;
+
+        };
+    </script>
+    <style type="text/css">
+        .gridcontainer {
+            position: relative;
+            top: 10px;
+            padding: 0 0 0 0;
+            display: block;
+            background: none;
+            font-family: Arial,Verdana;
+        }
+    </style>
+    <style type="text/css">
+        .smallSize {
+            font-size: small;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+
+        .autocomplete_completionListElement {
+            margin: 0px!important;
+            background-color: inherit;
+            color: windowtext;
+            border: buttonshadow;
+            border-width: 1px;
+            border-style: solid;
+            cursor: default;
+            overflow: auto;
+            height: 400px;
+            font-family: Tahoma;
+            font-size: small;
+            text-align: left;
+            list-style-type: none;
+        }
+        /* AutoComplete highlighted item */
+        .autocomplete_highlightedListItem {
+            background-color: #ffff99;
+            color: black;
+            padding: 1px;
+        }
+
+        /* AutoComplete item */
+        .autocomplete_listItem {
+            background-color: window;
+            color: windowtext;
+            padding: 1px;
+        }
+
+        .Background {
+            background-color: Black;
+            filter: alpha(opacity=90);
+            opacity: 0.8;
+        }
+
+        .Popup {
+            background-color: #FFFFFF;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 400px;
+            height: 350px;
+        }
+    </style>
+    <style type="text/css">
+        /*body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}*/
+        .modal {
+            display: none;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: black;
+            z-index: 100;
+            opacity: 0.8;
+            filter: alpha(opacity=60);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+        }
+
+        #divImage {
+            display: none;
+            z-index: 1000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: White;
+            height: 550px;
+            width: 600px;
+            padding: 3px;
+            border: solid 1px black;
+        }
+    </style>
+
+    <script type="text/javascript">
+<!--
+    function scrollTextBox() {
+        var textRange = document.getElementById('txtifsccode').createTextRange();
+        textRange.collapse(false);
+        textRange.select();
+    }
+    // -->
+    </script>
+
+    <script type="text/javascript">
+        function SetTarget() {
+            document.forms[0].target = "_blank";
+        }
+    </script>
+    <style type="text/css">
+        .ui-datepicker {
+            font-size: 8pt !important;
+        }
+
+        .style1 {
+            width: 161px;
+        }
+
+        .style3 {
+            width: 162px;
+        }
+
+        .style4 {
+            width: 162px;
+            height: 36px;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .auto-style1 {
+            height: 20px;
+        }
+    </style>
+    <script type="text/javascript">
+
+        var finalUrl = "";
+        var MethodInfo = "";
+        var MethodCapture = "";
+
+              //Mantra Discover Function
+          function discoverAvdmFirstNode(PortNo) {
+             // alert(PortNo);
+              //var primaryUrl = "http://127.0.0.1:";
+
+              var primaryUrl = "http://127.0.0.1:";
+
+              try {
+                  var protocol = window.location.href;
+                  if (protocol.indexOf("https") >= 0) {
+                      primaryUrl = "https://127.0.0.1:";
+                  }
+              } catch (e)
+              { }
+              url = "";
+              var verb = "RDSERVICE";
+              var err = "";
+              var res;
+              $.support.cors = true;
+              var httpStaus = false;
+              var jsonstr = "";
+              var data = new Object();
+              var obj = new Object();
+
+              //alert(primaryUrl);
+
+              $.ajax({
+                  type: "RDSERVICE",
+                  async: false,
+                  crossDomain: true,
+                  url: primaryUrl + PortNo,
+                  contentType: "text/xml; charset=utf-8",
+                  processData: false,
+                  cache: false,
+                  async: false,
+                  crossDomain: true,
+                  success: function (data) {
+                      httpStaus = true;
+                      res = { httpStaus: httpStaus, data: data };
+                      finalUrl = primaryUrl + PortNo.toString();
+                      //alert(data);
+                      //debugger;
+                      var $doc = $.parseXML(data);
+
+                      //alert($($doc).find('Interface').eq(1).attr('path'));
+
+
+                      if ($($doc).find('Interface').eq(0).attr('path') == "/rd/capture") {
+                          MethodCapture = $($doc).find('Interface').eq(0).attr('path');
+                      }
+                      if ($($doc).find('Interface').eq(1).attr('path') == "/rd/capture") {
+                          MethodCapture = $($doc).find('Interface').eq(1).attr('path');
+                      }
+
+                      if ($($doc).find('Interface').eq(0).attr('path') == "/rd/info") {
+                          MethodInfo = $($doc).find('Interface').eq(0).attr('path');
+                      }
+                      if ($($doc).find('Interface').eq(1).attr('path') == "/rd/info") {
+                          MethodInfo = $($doc).find('Interface').eq(1).attr('path');
+                      }
+                    //  alert("RDSERVICE 1 Discover Successfully");
+
+                      //alert(finalUrl + MethodCapture);
+                  },
+                  error: function (jqXHR, ajaxOptions, thrownError) {
+
+                      //alert(thrownError);
+                      res = { httpStaus: httpStaus, err: getHttpError(jqXHR) };
+                  },
+              });
+
+              return res;
+          }
+
+          function discoverAvdm() {
+
+
+
+              var DrpVal = document.getElementById('MainContent_DropDownList1').value;
+
+
+
+           
+
+
+            var SuccessFlag = 0;
+            var primaryUrl = "http://127.0.0.1:";
+
+            try {
+                var protocol = window.location.href;
+                if (protocol.indexOf("https") >= 0) {
+                    primaryUrl = "https://127.0.0.1:";
+                }
+            } catch (e)
+            { }
+
+              //alert(primaryUrl);
+            if (DrpVal == '2') {
+                primaryUrl = "http://127.0.0.1:"
+            }
+             
+            debugger;
+            url = "";
+            //alert("Please wait while discovering port from 11100 to 11120.\nThis will take some time.");
+            for (var i = 11100; i <= 11120; i++) {
+
+                var verb = "RDSERVICE";
+                var err = "";
+                SuccessFlag = 0;
+                var res;
+                $.support.cors = true;
+                var httpStaus = false;
+                var jsonstr = "";
+                var data = new Object();
+                var obj = new Object();
+
+             
+
+
+
+                $.ajax({
+
+                    type: "RDSERVICE",
+                    async: false,
+                    crossDomain: true,
+                    url: primaryUrl + i.toString(),
+                    contentType: "text/xml; charset=utf-8",
+                    processData: false,
+                    cache: false,
+                    crossDomain: true,
+
+                    success: function (data) {
+
+                        httpStaus = true;
+                        res = { httpStaus: httpStaus, data: data };
+                        //alert(data);
+                        finalUrl = primaryUrl + i.toString();
+                        var $doc = $.parseXML(data);
+                        var CmbData1 = $($doc).find('RDService').attr('status');
+                        var CmbData2 = $($doc).find('RDService').attr('info');
+
+                        debugger;
+                        if (RegExp('\\b' + 'Mantra' + '\\b').test(CmbData2) == true && DrpVal == '1') {
+
+                            if ($($doc).find('Interface').eq(0).attr('path') == "/rd/capture") {
+                                MethodCapture = $($doc).find('Interface').eq(0).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(1).attr('path') == "/rd/capture") {
+                                MethodCapture = $($doc).find('Interface').eq(1).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(0).attr('path') == "/rd/info") {
+                                MethodInfo = $($doc).find('Interface').eq(0).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(1).attr('path') == "/rd/info") {
+                                MethodInfo = $($doc).find('Interface').eq(1).attr('path');
+                            }
+
+
+                            SuccessFlag = 1;
+                           // alert("RDSERVICE Discover Successfully");
+
+                            //debugger;
+                            var t = finalUrl + MethodCapture;
+                            document.getElementById('MainContent_hdnMethodCapture').value = t;
+
+
+
+                            // alert(t);
+
+                            //alert(finalUrl + MethodCapture);
+                            return;
+
+                        }
+                        else if (DrpVal == '2') {
+
+                            if ($($doc).find('Interface').eq(0).attr('path') == "/capture") {
+                                MethodCapture = $($doc).find('Interface').eq(0).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(1).attr('path') == "/capture") {
+                                MethodCapture = $($doc).find('Interface').eq(1).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(0).attr('path') == "/info") {
+                                MethodInfo = $($doc).find('Interface').eq(0).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(1).attr('path') == "/info") {
+                                MethodInfo = $($doc).find('Interface').eq(1).attr('path');
+                            }
+
+
+                            SuccessFlag = 1;
+                            // alert("RDSERVICE Discover Successfully.... morpho");
+
+                            //debugger;
+                            var t = finalUrl + '/capture';
+                            document.getElementById('MainContent_hdnMethodCapture').value = t;
+
+
+                            // alert(t);
+
+                            //alert(finalUrl + MethodCapture);
+                            return;
+
+                        }
+                        if (RegExp('\\b' + 'Mantra IRIS' + '\\b').test(CmbData2) == true && DrpVal == '3') {
+
+                            if ($($doc).find('Interface').eq(0).attr('path') == "/rd/capture") {
+                                MethodCapture = $($doc).find('Interface').eq(0).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(1).attr('path') == "/rd/capture") {
+                                MethodCapture = $($doc).find('Interface').eq(1).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(0).attr('path') == "/rd/info") {
+                                MethodInfo = $($doc).find('Interface').eq(0).attr('path');
+                            }
+                            if ($($doc).find('Interface').eq(1).attr('path') == "/rd/info") {
+                                MethodInfo = $($doc).find('Interface').eq(1).attr('path');
+                            }
+
+
+                            SuccessFlag = 1;
+                           // alert("RDSERVICE Discover IRIS Successfully");
+
+                            //debugger;
+                            var t = finalUrl + MethodCapture;
+                            document.getElementById('MainContent_hdnMethodCapture').value = t;
+
+
+
+                                // alert(t);
+
+                                //alert(finalUrl + MethodCapture);
+                            return;
+
+                        }
+                        else {
+
+                        }
+
+                        //  alert(CmbData1);
+                        //  alert(CmbData2);
+
+                    },
+                    error: function (jqXHR, ajaxOptions, thrownError) {
+                        if (i == "8005" && OldPort == true) {
+                            OldPort = false;
+                            i = "11099";
+                        }
+
+                        //alert(thrownError);
+
+                        //res = { httpStaus: httpStaus, err: getHttpError(jqXHR) };
+                    },
+
+                });
+
+
+
+            if (SuccessFlag == 1) {
+                break;
+            }
+
+                //$("#ddlAVDM").val("0");
+
+        }
+
+        if (SuccessFlag == 0) {
+            //alert("Connection failed Please try again.");
+        }
+
+
+
+            //$('#txtDeviceInfo').val(DataXML);
+
+
+
+        return res;
+    }
+    //
+
+
+    function CaptureMantra() {
+
+        discoverAvdm();
+        
+
+        var t = document.getElementById('MainContent_hdnMethodCapture').value;
+            var url = t;
+           // alert(url);
+            //alert(finalUrl);
+            //alert(MethodCapture);
+
+            var DrpVal = document.getElementById('MainContent_DropDownList1').value;
+            if (DrpVal == "1")
+                var PIDOPTS = '<PidOptions ver=\"1.0\">' + '<Opts fCount=\"1\" fType=\"0\" iCount=\"0\" iType=\"\" pCount=\"0\" pType=\"\" format=\"0\" pidVer=\"2.0\" timeout=\"10000\" otp=\"\" env=\"P\" wadh=\"\" posh=\"\"/>' + '</PidOptions>';
+            else if (DrpVal == "2")
+                var PIDOPTS = '<PidOptions ver=\"1.0\">' + '<Opts fCount=\"1\" fType=\"0\" iCount=\"\" iType=\"\" pCount=\"\" pType=\"\" format=\"0\" pidVer=\"2.0\" timeout=\"10000\" otp=\"\" wadh=\"\" posh=\"\"/>' + '</PidOptions>';
+            else if (DrpVal == "3")
+                var PIDOPTS = '<PidOptions ver=\"1.0\">' + '<Opts fCount=\"0\" fType=\"0\" iCount=\"1\" iType=\"\" pCount=\"0\" pType=\"\" format=\"0\" pidVer=\"2.0\" timeout=\"50000\" otp=\"\" env=\"P\" wadh=\"\" posh=\"\"/>' + '</PidOptions>';
+            /*format=\"0\"     --> XML
+         format=\"1\"     --> Protobuf
+         */
+
+
+
+
+            var xhr;
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+            if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) // If Internet Explorer, return version number
+            {
+                //IE browser
+                xhr = new ActiveXObject("Microsoft.XMLHTTP");
+            } else {
+                //other browser
+                xhr = new XMLHttpRequest();
+            }
+            xhr.open('CAPTURE', url, true);
+            xhr.setRequestHeader("Content-Type", "text/xml");
+            xhr.setRequestHeader("Accept", "text/xml");
+
+            xhr.onreadystatechange = function () {
+                //if(xhr.readyState == 1 && count == 0){
+                //	fakeCall();
+                //}
+                if (xhr.readyState == 4) {
+                    var status = xhr.status;
+
+                    if (status == 200) {
+                        debugger;
+                        //var dat = document.getElementById('MainContent_lblData').innerText;
+                        // alert(dat);
+                        // alert(xhr.responseText);
+                        document.getElementById('MainContent_hndData').value = xhr.responseText;
+                        var result = xhr.responseText;
+                        if (result.toString().length > 500) {
+                            document.getElementById('MainContent_Label2').innerText = "Capture Succcessful";
+                            document.getElementById('MainContent_Image3').style.visibility = "visible";
+                           document.getElementById('MainContent_Image2').style.visibility = "hidden";
+                           document.getElementById('MainContent_Image5').style.visibility = "hidden";
+                          
+                      }
+                        else {
+                            if (DrpVal == "3")
+                                document.getElementById('MainContent_Label2').innerText = "Please Insert your eyes Properly..!!!!!";
+                            else 
+                                document.getElementById('MainContent_Label2').innerText = "Please Insert your thumb properly....!!!!!";
+                      }
+                        //if(xhr.responseText.indexOf("errCode=\"100\"") != -1){
+                        //alert(xhr.responseText);
+                        //fakeCall();
+                        //Capture();
+                        //}else{
+                        //    alert(xhr.responseText);
+                        //    console.log(xhr.response);
+                        //}
+                  } else {
+
+                      console.log(xhr.response);
+                  }
+              }
+            };
+            // document.forms[0].appendChild(xhr.send(PIDOPTS));
+          xhr.send(PIDOPTS);
+      }
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        function ShowHide(Id, img) {
+            var div = document.getElementById(Id);
+            var img = document.getElementById(img);
+            if (div.style.display == "none") {
+                div.style.display = "";
+                img.src = "../Images/RemoveIcon.png"
+
+            }
+            else {
+                div.style.display = "none";
+                img.src = "../Images/AddIcon.png"
+            }
+        }      
+
+    </script>
+    <script language="JavaScript" type="text/javascript">
+        function onlyNumbers(evt) {
+            var e = event || evt;
+            var charCode = e.which || e.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                alert('Enter Numbers Only');
+                return false;
+            }
+            return true;
+        } 
+    </script>
+    <style type="text/css">
+        #MainContent_div1
+        {
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);
+        }
+        </style>
+    <script language="javascript" type="text/javascript">
+        //Note  We have to add a script file in Masterpage/head of this page to run this java script
+        function PreviewImg(imgFile, id) {
+
+            var newPreview = document.getElementById(id);
+            newPreview.src = imgFile.value;
+            newPreview.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgFile.value;
+            newPreview.style.width = "100px";
+            newPreview.style.height = "100px";
+        }
+    </script>
+
+<link href="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/WebResource.axd" type="text/css" rel="stylesheet">
+
+    <form method="post" action="https://dbtagriculture.bihar.gov.in/RegFarmer/" onsubmit="javascript:return WebForm_OnSubmit();" id="ctl01">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="ctl00$MainContent$ddldistric">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDIwMjg2MzEzDxYEHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEeDEFkaGFyQXV0aEJpbwUHU1VDQ0VTUxYCZg9kFgICAw9kFgICBQ9kFg4CCQ8PFgIeB1Zpc2libGVoZBYCAgEPEGRkFgECAWQCCw9kFgQCBQ8PFgIfAmhkZAIHDw8WAh8CaGRkAg0PDxYCHwJoZBYUAgEPEA8WAh4LXyFEYXRhQm91bmRnZBAVAwZTZWxlY3QGTUFOVFJBBk1PUlBITxUDATABMQEyFCsDA2dnZxYBAgJkAgMPDxYCHwJoZGQCBQ8PFgIfAmhkZAIJDw8WBB4EVGV4dAUMNDUyMTY5MjI3MTA5HgdFbmFibGVkaGRkAg0PDxYEHwQFC0hJUklZQSBERVZJHwVoZGQCDw8PFgIfBAUJQklPTUFUUklDZGQCEQ8PFgIfAmhkZAIVDw8WAh8CZ2RkAiEPDxYCHwRlZGQCIw8WAh4FVmFsdWUF6Rk8UGlkRGF0YT48UmVzcCBlcnJDb2RlPSIwIiBlcnJJbmZvPSIiIGZDb3VudD0iMSIgZlR5cGU9IjAiIGlDb3VudD0iIiBwQ291bnQ9IiIgbm1Qb2ludHM9IjMyIiBxU2NvcmU9IjM0DQoiLz48RGV2aWNlSW5mbyBkcElkPSJNb3JwaG8uU21hcnRDaGlwIiByZHNJZD0iU0NQTC5XSU4uMDAxIiByZHNWZXI9IjEuMC40IiBkYz0iMTRkYmQ3ZDItY2RkZS00ZTY5LTkwMDQtMWM0YzU3MTBhZmJiIiBtaT0iTVNPMTMwMEUzTDBTVyIgbWM9Ik1JSUQvekNDQXVlZ0F3SUJBZ0lHQVhGRmdMVjVNQTBHQ1NxR1NJYjNEUUVCQ3dVQU1JR2NNU0F3SGdZRFZRUUREQmRFVXlCVFRVRlNWQ0JEU0VsUUlGQldWQ0JNVkVRZ09URVlNQllHQTFVRU14TVBSQ0F5TVRZZ1UwVkRWRTlTSURZek1RNHdEQVlEVlFRSkRBVk9iMmxrWVRFV01CUUdBMVVFQ0F3TlZWUlVRVklnVUZKQlJFVlRTREVNTUFvR0ExVUVDd3dEUkZOQk1Sc3dHUVlEVlFRS0RCSlRUVUZTVkNCRFNFbFFJRkJXVkNCTVZFUXhDekFKQmdOVkJBWVRBa2xPTUI0WERUSXdNRFF3TkRFME1ETXhOVm9YRFRJd01EVXdOREUwTURNeE5Wb3dnY1V4RkRBU0JnTlZCQW9NQzAxQlVsQklUMUpFVUU5RE1Rd3dDZ1lEVlFRTERBTkVVMEV4TVRBdkJna3Foa2lHOXcwQkNRRVdJbkJoYm10aGFpNWhaMkZ5ZDJGc1FITnRZWEowWTJocGNHOXViR2x1WlM1amIyMHhEakFNQmdOVkJBY01CVTV2YVdSaE1SWXdGQVlEVlFRSURBMVZkSFJoY2lCUWNtRmtaWE5vTVFzd0NRWURWUVFHRXdKcGJqRTNNRFVHQTFVRUF3d3VjbVJmWkdWMmFXTmxYekUwWkdKa04yUXlMV05rWkdVdE5HVTJPUzA1TURBMExURmpOR00xTnpFd1lXWmlZakNDQVNFd0RRWUpLb1pJaHZjTkFRRUJCUUFEZ2dFT0FEQ0NBUWtDZ2dFQThuNEFKUVlLUEdGWjh1bzZkRjdKQVRhWUNGaHpOUTc3V1lzVUNKR1B2WExrYjBkajRFRjlDcVJ4bEQrL3JETGlXRmQwUmRINjFpVXpWVjRiaTJLWFdNem9GeGxiejdHenNyS3pPdXEwZDBRblZtcFNQMjZQL21TKzFMSnhBZDI3UEwwdWlRV1VJQm92Q2NMb0VNVW15TWZSTjg0endId2U3VUtFWUo0eTBEYWRwQXZzckowbkNrN3FBSUtjK0xQemlWcDd3MDlYd1kwajVHSERYdm01S21lR1V6T2N5SnZsc2ZLelliWGdmZUw4NzlFbG0vSEFwQnpTZFo5K1owZGxXa0xsUlAvTmdFaDROVklmak55TkVoN1RhRnRPbk05RzhuSDVOenJobDFoTnpZTFZ1emN0bVlxMy9Wem4zU2Z0WEdrUW9mY01icHh5WkVKOVRsa1hDUUlEQVFBQm94MHdHekFNQmdOVkhSTUVCVEFEQVFIL01Bc0dBMVVkRHdRRUF3SUJoakFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBWTZEVnZaU3dkU1ozWm81ckwvOWVia3RzcHlETkJ2UXVwNmJwNlBRcDl6cDQxMGhROXp2SGRpaU55Mi9nZUNJSEpTOXJWMDE0R3lhb296M1IvOERRSDh1c1hUMnVwMU1Cb3pMS3czeUlzY2I2ajNHeEdmdlY0Q1U2c3VCVHFlUm5LYUVzdUdNb0l0L3h0aW9TbnZQeVJsRUVHL1dEdTdtOW1xTzNwMU5mNEFJVDRlR1dXWWFZcjg3TmVkeEcvSFJidWhDNGxXa1owSDM3aVQ5T0FDVkxuZlF2U1Mvd3RUTGNkVkU5bTB2cnJQNGZBT2RyVWtDZkxvMUZhbVR3aHZlMEptdXY5d0xFY25kdkR0NHZIN0t2TklvMlh2R2xtYWh0cmZBZlpIUDhwcnVWMGFYZEgrM3ROV3hzNnFncEhrcTVBVnhuNWlhWi9sSG95bTZGVnZsbjZ3PT0iPjxhZGRpdGlvbmFsX2luZm8+PFBhcmFtIG5hbWU9InNybm8iIHZhbHVlPSIxODM5STAyNTg1OCIvPjwvYWRkaXRpb25hbF9pbmZvPjwvRGV2aWNlSW5mbz4NCjxTa2V5IGNpPSIyMDIyMTAyMSI+cDRFTVFPb1pZVmtTWHlsdkJlcDRwZ1NyOXA4WXZiVEFobW5GS1JIZ014cVZQYUVVRkxUTEZGcWE4OU5oSXFpeTcwemJ6M0F0Z29VOHF0ejQwVkhyR2w3NDVkUU5uTnRaakkrL2FhYTduYzdFVzlHNWhtYUtWSFkzQ055REQ0cFpwaEw4QjZESnU3bUxGNHNWQ0swTG41QnZOdFJEOHRhNmtKSEVCN3Rwek1wOHZNWGk2V3BIeUg5TktPMDlpd2U1VXhBOUlzOHF1NmIyUGpyaVFiN0l1dHlITXhhWnF0cnF1c3lONDd3dHVPczJMTGhleTU5VFdKOVYxTllWUG9TYWx6SFlWNGFHbHY3VXBRdHljRGwyaFhaUlJaSmRCdEdtS3A1OXUwdnkwKy9Vc2FpVkcvMzMxb3RYeVF0RDN0Z1U2bEJ3TDdIelUybW9GNFBNT0w4R213PT08L1NrZXk+PEhtYWM+UEx2aEJOSldSN042T21BRWhJaURldlVHSERqNWxHaW5pa1c1dG5BcFdRRnFTdVVtWUtTbkp1YmRTeVlEUTZuSTwvSG1hYz48RGF0YSB0eXBlPSJYIj5NakF5TUMwd05DMHdORlF4T1Rvek9Ub3pORDc0L3pkYXlLcllKWExEZHR2VVFoMCtqNUcwYm5hYTF1UHVwL0g4MjZmRVVMTjhrSXdVZ3ZaQkhHM1p4ZHVmeWJmZjF3dFI5eHkydkQzRkh4Zk5RK3plSlQvd1RPUVI1TUhJbVpyeHFjOVkxVGV6K1NSWnpCR05KYzg3aHQrOE5IUm1USWlNemg1S1JkWUV4ditHQStDREdzY3hiT242cU4wN3ZJQWxlQnMyU3pac1dSYnhTUDF4RW9jZlplZkFBbDVaUjVXSmRuZFkxc3VJSTdBNW9xN1BvWHhoRXFXV0tyYkJTdlZDelVvTlJTZTE4aWVCZWIvUUVlc1EvQVFGV2U2RTVmNTFoalFZUUdaS1NEbUl0U2ZUTDZRVWU0TGxPZU8zQnpmSzRSdDlPcXMxbTBmVzdVdHd6eXNIakwxbDNCa3JhUkRvKy83R09YKytjQW5ZWUlNc0ZKOU1CampwUTlKSkNmdFdnZ1lkVmVJMTFBd0FIa0FuNHFNOGRENVlHRWF3UXZHdTVwRHBpdGJybjNJTEZFbDJPNmdIYWVSQ0MzcGt0YW8zajZUNFZ4cDhSd0MyNXA3bUg3RmRWT0hkOTJzTW5aVW96ejBiTTNWNWRWNWlVT1NhbEdyMUc0Um5samlBelRuR010NTZvSFdkbWt2QlR5THhVT1NTdExoeUFRTTJqVjZncSt0SEpaY2dEWXJYM3dRQlZTMWxObVh6bXFRMndRN1pJdHdodFAyUG5DTThXTHVzM2lMem83NFRvRStPTVBsT3NiVHBsOVpsMWp5cStQS2ttbjBaa3A0aWNrb3pyVitvdG5ZWnV0WHdzNWNQRXJtdmNmNUJ2RWtoVzNBejR4UDJZMmNTaWlIa0MrNis3R2lLM2N1K0dlK3hFSWczS1J6U3ZsUW9ucGwwYTkxY05NVUFyNDFod1dkRFYxWlduc2g0T21QeDltMElrcllGbVdXR1p6eVd6aDdySmtwdFNoYkZwYXVDQlNMK21JZ1Q1TDdEN0JFLzBVVEZlZSsxcVh4RE5Xby9HMSt3ZlhITWhGNnhva0lJYVVSZXZlMkVDcnorMjZZSVo2U3RBZmZ1aC9NL0tha2tEK0hURzJFeGJ6Q2VYR1N3SHdIR1Z3THFKTVk0djVDVGY3d3g2Y1NtQ2VUYkxPS2tHNFFyUlY2T2Jma0hBSFJzT21oTWliUXZlOHVuUGVpL1hqd0R2SEpxVGZWQkVqak9NMk5qQWVnMUlJcTVjZUE2b01PYWtlNU9aMGhBbk8rUEJnWmZpdWhPOVBTOWdDL29vbWlsZ1VpRk5oOTUrS29vVWZaQXI5WlhZUjBoOVM3RWo5azZkZWFZNnNkaG9scTR0QUdtaFFTdkxzUG0rdFFJZDJlSm1TMDJQTWgxWXkrWisvaE5tbTBNbmlNT0g1L0Y1cURmVGxJb1hmUGlHYnl0UUlWbmd3OD08L0RhdGE+PC9QaWREYXRhPmQCDw9kFgICAQ8PFgIfAmdkZAIRDw8WAh8CZ2QWBgIDDxAPFgIeB0NoZWNrZWRnZGRkZAIFDxAPFgIfB2hkZGRkAgcPEA8WAh8HaGRkZGQCEw9kFgJmD2QWAgIBDw8WAh8CZ2QWBgIBDw8WAh8CZ2QWDgIFDw8WBB8EBQtISVJJWUEgREVWSR8FaGRkAg8PDxYCHwQFCjAxLTAxLTE5NTNkZAIfDw8WBB8EBQI2Nx8CZ2RkAi0PEA8WBh4NRGF0YVRleHRGaWVsZAUIRGlzdE5hbWUeDkRhdGFWYWx1ZUZpZWxkBQhEaXN0Q29kZR8DZ2QQFScaLS3gpJrgpK/gpKgg4KSV4KSw4KWH4KSCLS0GQVJBUklBBUFSV0FMCkFVUkFOR0FCQUQFQkFOS0EJQkVHVVNBUkFJCUJIQUdBTFBVUgdCSE9KUFVSBUJVWEFSCURBUkJIQU5HQQRHQVlBCUdPUEFMR0FOSgVKQU1VSQlKRUhBTkFCQUQGS0FJTVVSB0tBVElIQVIIS0hBR0FSSUEKS0lTSEFOR0FOSgpMQUtISVNBUkFJCU1BREhFUFVSQQlNQURIVUJBTkkGTVVOR0VSC01VWkFGRkFSUFVSB05BTEFOREEGTkFXQURBElBBU0hDSElNIENIQU1QQVJBTgVQQVROQQ9QVVJCSSBDSEFNUEFSQU4GUFVSTklBBlJPSFRBUwdTQUhBUlNBClNBTUFTVElQVVIFU0FSQU4KU0hFSUtIUFVSQQdTSEVPSEFSCVNJVEFNQVJISQVTSVdBTgZTVVBBVUwIVkFJU0hBTEkVJwEwAzIwOQMyNDADMjM1AzIyNQMyMjIDMjI0AzIzMQMyMzIDMjE1AzIzNgMyMTcDMjM4AzIzOQMyMzMDMjEyAzIyMwMyMTADMjI3AzIxMwMyMDcDMjI2AzIxNgMyMjkDMjM3AzIwMwMyMzADMjA0AzIxMQMyMzQDMjE0AzIyMQMyMTkDMjI4AzIwNQMyMDYDMjE4AzIwOAMyMjAUKwMnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgECE2QCMQ8QDxYGHwgFCUJsb2NrTmFtZR8JBQlCbG9ja0NvZGUfA2dkEBUOGi0t4KSa4KSv4KSoIOCkleCksOClh+Ckgi0tCUFMQU1OQUdBUgpCSUhBUklHQU5KBkNIQVVTQQlHQU1IQVJJWUEHR0hFTEFSSAhHV0FMUEFSQQpLVU1BUktIQU5ECU1BREhFUFVSQQlNVVJMSUdBTkoGUFVSQU5JClNIQU5LQVJQVVILU0lOR0hFU0hXQVIOVURBIEtJU0hBTkdBTkoVDgEwBDExNjkEMTE2NgQxMTcwBDExNTgEMTE2MAQxMTY1BDExNjMEMTE2MQQxMTY0BDExNjgEMTE2MgQxMTU5BDExNjcUKwMOZ2dnZ2dnZ2dnZ2dnZ2cWAQIDZAI1DxAPFgYfCAUNUGFuY2hheWF0TmFtZR8JBQ1QYW5jaGF5YXRDb2RlHwNnZBAVDhotLeCkmuCkr+CkqCDgpJXgpLDgpYfgpIItLQ1BUkFKSVBVUiBFQVNUDUFSQUpJUFVSIFdFU1QHQ0hJUk9SSQtDSE9VU0EgRUFTVAtjaG91c2EgV0VTVAtGVUxBVVQgRUFTVAtGVUxBVVQgV0VTVAZHSE9TQUkPTEFXQUxBR0FOICBFQVNUD0xBV0FMQUdBTiAgV0VTVAhNT1JTQU5EQQVQQUlOQQ9SQVNBTFBVUiBESFVSSUEVDgEwBTk3MDAyBTk3MDAzBTk3MDA0BTk3MDA1BTk3MDA2BTk3MDA3BTk3MDA4BTk3MDA5BTk3MDEwBTk3MDExBTk3MDEyBTk3MDEzBTk3MDE0FCsDDmdnZ2dnZ2dnZ2dnZ2dnFgECCmQCOQ8QDxYIHwVnHwgFCFZpbGxOYW1lHwkFCFZpbGxDb2RlHwNnZBAVLBotLeCkmuCkr+CkqCDgpJXgpLDgpYfgpIItLRpBbWFuYXQgSGVkYWV0dWxsYWggU3ViZWRhchdBbWFuYXQgTWFudWxsYWggSmFtYWRhchdBbWFuYXQgTWFudWxsYWggU3ViZWRhchlBbWFuYXQgTXVuZ2kgS2hhbiBTdWJlZGFyB0FyYWpwdXIJQmhhdGdhd2FuE0Job2xhIFNpbmdoIEphbWFkYXIVQ2hhbXJ1IEhhd2FsZGFyIEphZ2lyBkNoYXVzYRRDaGF1c2EgQW1hbmF0IFNhcmthchpEYW1hciBTaW5naCBIYXZhbGRhciBKYWdpcgtEaGFuc2VzaHB1chpEaW4gTW9oYW1tYWQgU3ViZWRhciBKYWdpchpEaW4gTW9oYW1tYWQgU3ViZWRhciBKYWdpcg5FbmdsaXNoIEdob3NhaQ5FbmdsaXNoIEdob3NhaRRFdHdhcmkgSmFtYWRhciBKYWdpcgZHaG9zYWkYR292aW5kIFJhbSBLdW1lZGFuIEphZ2lyGkhhc2FuIFNoYXJpZiBKYW1hZGFyIEphZ2lyGUhpZGFldHVsbGFoIEphbWFkYXIgSmFnaXIUSmFtbWFuIGt1bWVkYW4gSmFnaXIXSml0IFNpbmdoIFN1YmVkYXIgSmFnaXIXS2V3YXQgUmFtIFN1YmVkYXIgSmFnaXISS2hhbiBLdW1lZGFuIEphZ2lyCkxhdWFsYWdhb24YTGF1YWxhZ2FvbiBBbWFuYXQgU2Fya2FyFk1hbnVsbGFoIFN1YmVkYXIgSmFnaXIbTW9oYW1hZCBIYW5pZiBLdW1lZGFuIEphZ2lyG01vaGFtbWFkIEhlYXQgS3VtZWRhbiBKYWdpchxNb2hhbW1hZCBKYWZhciBTdWJlZGFyIEphZ2lyHE1vaGFtbWFkIEphZmFyIFN1YmVkYXIgSmFnaXIITW9yc2FuZGEYTmlhbWF0dWxsYWggU2lwYWhpIEphZ2lyCFBhY2hyYXNpFlBhY2hyYXNpIEFtYW5hdCBTYXJrYXIUUGFoYXJpIFN1YmVkYXIgSmFnaXIFUGFpbmEHUGh1bGF1dBZSYW1ha2FudCBTdWJlZGFyIEphZ2lyD1Jhc3VscHVyIERodXJpYRhTYXJkYXIgS2hhbiBTaXBhaGkgSmFnaXIVU3ViaGFuaSBTdWJlZGFyIEphZ2lyFSwBMAYyMjYyMjYGMjI2MjIzBjIyNjIxOAYyMjYyMjAGMjI2MjA5BjIyNjIwOAYyMjYyMjIGMjI2MjMzBjIyNjIxMwYyMjYyMTIGMjI2MjA3BjIyNjIxNgYyMjYyMDUGMjI2MjA0BjIyNjIxNAYyMjYyMzQGMjI2MjI0BjIyNjIxNQYyMjYyMzYGMjI2MjM1BjIyNjIyNwYyMjYyMDMGMjI2MjAxBjIyNjIzMQYyMjYyMTkGMjI2MTk5BjIyNjIwMAYyMjYyMjEGMjI2MjMwBjIyNjIwMgYyMjYyMTAGMjI2MjExBjIyNjE5NgYyMjYyMzIGMjI2MTk4BjIyNjE5NwYyMjYyMjUGMjI2MjE3BjIyNjE5NQYyMjYyMjgGMjI2MjM3BjIyNjIwNgYyMjYyMjkUKwMsZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAQIaZAIDDw8WAh8CZ2QWAgIDDxAPFgQfCAUEQmFuax8DZ2QQFUkaLS3gpJrgpK/gpKgg4KSV4KSw4KWH4KSCLS0OQUxMQUhBQkFEIEJBTksLQU5ESFJBIEJBTksyQXVyYW5nYWJhZCBEaXN0cmljdCBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4JQVhJUyBCQU5LDEJhbmRoYW4gQmFuaw5CQU5LIE9GIEJBUk9EQQ1CQU5LIE9GIElORElBE0JBTksgT0YgTUFIQVJBU0hUUkETQkFOSyBPRiBNQUhBUkFTSFRSQShCZWd1c2FyYWkgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuEUJpaGFyIEdyYW1pbiBCYW5rGkJpaGFyIFN0YXRlIENPLU9QIEJhbmsgTHRkC0NBTkFSQSBCQU5LFUNFTlRSQUwgQkFOSyBPRiBJTkRJQSJDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEFyYSBMdGQuHkNlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLglDSVRJIEJBTksQQ09SUE9SQVRJT04gQkFOSxlEYWtzaGluIEJpaGFyIEdyYW1pbiBCYW5rCURFTkEgQkFOSwxGRURFUkFMIEJBTksSRmlubyBQYXltZW50cyBCYW5rKEdvcGFsZ2FuaiBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4JSERGQyBCQU5LEklDSUNJIEJBTksgTElNSVRFRAlJREJJIEJBTksJSURGQyBCYW5rC0lORElBTiBCQU5LFElORElBTiBPVkVSU0VBUyBCQU5LH0luZGlhbiBQb3N0IFBheW1lbnRzIEJhbmsoSVBQQikNSU5EVVNJTkQgQkFOSx5KQU1NVSBBTkQgS0FTSE1JUiBCQU5LIExJTUlURUQJSmFuYSBCYW5rLkthdGloYXIgRGlzdHJpY3QgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQxS2hhZ2FyaWEgRGlzdHJpY3QgIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLhtLT1RBSyBNQUhJTkRSQSBCQU5LIExJTUlURUQYTWFkaHlhIEJpaGFyIEdyYW1pbiBCYW5rJU1hZ2FkaCBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4rTW9uZ2h5ci1KYW11aSBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZCpNdXp6YWZhcnB1ciBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4mTmFsYW5kYSBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4nTmF0aW9uYWwgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuJU5hd2FkYSBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4ZT1JJRU5UQUwgQkFOSyBPRiBDT01NRVJDRSlQYXRsaXB1dHJhIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLhRQVU5KQUIgQU5EIFNJTkQgQkFOSxRQVU5KQUIgTkFUSU9OQUwgQkFOSyVQdXJuZWEgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuJVJvaGlrYSBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4pU2FtYXN0aXB1ciBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4uU2FzYXJhbS1CaGFiaHVhIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLgNTQkkXU1RBTkRBUkQgQ0hBUlRFUkVEIEJBTksgU1RBVEUgQkFOSyBPRiBCSUtBTkVSIEFORCBKQUlQVVIXU1RBVEUgQkFOSyBPRiBIWURFUkFCQUQUU1RBVEUgQkFOSyBPRiBNWVNPUkUVU1RBVEUgQkFOSyBPRiBQQVRJQUxBGFNUQVRFIEJBTksgT0YgVFJBVkFOQ09SRQ5TWU5ESUNBVEUgQkFOSyxUaGUgQmhhZ2FscHVyIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLitUaGUgTW90aWhhcmkgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuLFRoZSBTaXRhbWFyaGkgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuKFRoZSBTaXdhbiBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4IVUNPIEJBTksPVWpqaXZhbiBGaW5hbmNlE1VOSU9OIEJBTksgT0YgSU5ESUEUVU5JVEVEIEJBTksgT0YgSU5ESUEaVXRrYXJzaCBTbWFsbCBGaW5hbmNlIEJhbmsXVXR0YXIgQmloYXIgR3JhbWluIEJhbmsvVmFpc2hhbGkgRGlzdHJpY3QgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQLVklKQVlBIEJBTksIWUVTIEJBTksVSQEwDkFMTEFIQUJBRCBCQU5LC0FOREhSQSBCQU5LMkF1cmFuZ2FiYWQgRGlzdHJpY3QgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuCUFYSVMgQkFOSwxCYW5kaGFuIEJhbmsOQkFOSyBPRiBCQVJPREENQkFOSyBPRiBJTkRJQRNCQU5LIE9GIE1BSEFSQVNIVFJBE0JBTksgT0YgTUFIQVJBU0hUUkEoQmVndXNhcmFpIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLhFCaWhhciBHcmFtaW4gQmFuaxpCaWhhciBTdGF0ZSBDTy1PUCBCYW5rIEx0ZAtDQU5BUkEgQkFOSxVDRU5UUkFMIEJBTksgT0YgSU5ESUEiQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBBcmEgTHRkLh5DZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4JQ0lUSSBCQU5LEENPUlBPUkFUSU9OIEJBTksZRGFrc2hpbiBCaWhhciBHcmFtaW4gQmFuawlERU5BIEJBTksMRkVERVJBTCBCQU5LEkZpbm8gUGF5bWVudHMgQmFuayhHb3BhbGdhbmogQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuCUhERkMgQkFOSxJJQ0lDSSBCQU5LIExJTUlURUQJSURCSSBCQU5LCUlERkMgQmFuawtJTkRJQU4gQkFOSxRJTkRJQU4gT1ZFUlNFQVMgQkFOSx9JbmRpYW4gUG9zdCBQYXltZW50cyBCYW5rKElQUEIpDUlORFVTSU5EIEJBTkseSkFNTVUgQU5EIEtBU0hNSVIgQkFOSyBMSU1JVEVECUphbmEgQmFuay5LYXRpaGFyIERpc3RyaWN0IENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkMUtoYWdhcmlhIERpc3RyaWN0ICBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4bS09UQUsgTUFISU5EUkEgQkFOSyBMSU1JVEVEGE1hZGh5YSBCaWhhciBHcmFtaW4gQmFuayVNYWdhZGggQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuK01vbmdoeXItSmFtdWkgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQqTXV6emFmYXJwdXIgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuJk5hbGFuZGEgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuJ05hdGlvbmFsIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLiVOYXdhZGEgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuGU9SSUVOVEFMIEJBTksgT0YgQ09NTUVSQ0UpUGF0bGlwdXRyYSBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4UUFVOSkFCIEFORCBTSU5EIEJBTksUUFVOSkFCIE5BVElPTkFMIEJBTkslUHVybmVhIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLiVSb2hpa2EgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuKVNhbWFzdGlwdXIgQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuLlNhc2FyYW0tQmhhYmh1YSBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4DU0JJF1NUQU5EQVJEIENIQVJURVJFRCBCQU5LIFNUQVRFIEJBTksgT0YgQklLQU5FUiBBTkQgSkFJUFVSF1NUQVRFIEJBTksgT0YgSFlERVJBQkFEFFNUQVRFIEJBTksgT0YgTVlTT1JFFVNUQVRFIEJBTksgT0YgUEFUSUFMQRhTVEFURSBCQU5LIE9GIFRSQVZBTkNPUkUOU1lORElDQVRFIEJBTkssVGhlIEJoYWdhbHB1ciBDZW50cmFsIENvLU9wZXJhdGl2ZSBCYW5rIEx0ZC4rVGhlIE1vdGloYXJpIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLixUaGUgU2l0YW1hcmhpIENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkLihUaGUgU2l3YW4gQ2VudHJhbCBDby1PcGVyYXRpdmUgQmFuayBMdGQuCFVDTyBCQU5LD1Vqaml2YW4gRmluYW5jZRNVTklPTiBCQU5LIE9GIElORElBFFVOSVRFRCBCQU5LIE9GIElORElBGlV0a2Fyc2ggU21hbGwgRmluYW5jZSBCYW5rF1V0dGFyIEJpaGFyIEdyYW1pbiBCYW5rL1ZhaXNoYWxpIERpc3RyaWN0IENlbnRyYWwgQ28tT3BlcmF0aXZlIEJhbmsgTHRkC1ZJSkFZQSBCQU5LCFlFUyBCQU5LFCsDSWdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dkZAIFDw8WAh8CZ2QWAgIBDw8WBB8EBQw0NTIxNjkyMjcxMDkfBWhkZAIfD2QWBgIBDxAPFgIfB2hkZGRkAgMPEA8WAh8HZ2RkZGQCBQ9kFgICAQ8QZGQWAGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgYFG2N0bDAwJE1haW5Db250ZW50JGNoa0Zhcm1lcgUYY3RsMDAkTWFpbkNvbnRlbnQkTE5MY3NjBR5jdGwwMCRNYWluQ29udGVudCRJbWFnZUJ1dHRvbjEFF2N0bDAwJE1haW5Db250ZW50JGN0bDAxBR5jdGwwMCRNYWluQ29udGVudCRjaGtDcmVkaXRZZXMFHWN0bDAwJE1haW5Db250ZW50JGNoa0NyZWRpdE5vS+eeFxIuWCqVH6IYJOI2V9b6wJHUpIg7A2zNojF2XIQ=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl01'];
+if (!theForm) {
+    theForm = document.ctl01;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/WebResource(1).axd" type="text/javascript"></script>
+
+
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(2).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(3).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(4).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(5).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(6).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(7).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(8).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(9).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(10).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(11).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(12).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(13).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(14).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(15).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(16).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(17).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(18).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(19).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(20).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(21).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(22).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(23).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(24).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(25).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(26).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(27).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(28).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(29).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(30).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(31).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(32).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(33).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(34).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(35).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(36).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(37).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(38).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(39).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(40).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(41).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(42).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(43).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(44).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(45).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(46).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(47).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(48).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(49).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(50).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(51).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(52).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(53).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(54).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(55).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(56).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(57).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(58).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(59).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(60).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(61).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(62).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(63).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(64).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(65).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(66).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(67).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(68).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(69).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(70).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(71).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(72).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(73).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(74).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(75).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(76).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(77).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(78).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(79).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(80).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(81).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(82).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(83).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(84).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(85).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(86).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(87).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(88).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(89).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(90).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(91).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(92).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(93).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(94).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(95).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(96).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(97).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(98).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(99).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(100).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(101).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(102).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(103).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(104).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(105).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(106).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(107).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(108).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(109).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(110).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(111).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(112).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(113).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(114).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(115).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(116).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(117).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(118).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(119).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(120).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(121).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(122).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(123).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(124).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(125).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(126).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(127).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(128).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(129).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(130).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(131).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(132).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(133).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(134).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(135).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(136).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(137).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(138).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(139).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(140).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(141).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(142).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(143).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(144).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(145).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(146).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(147).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(148).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(149).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(150).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(151).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(152).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(153).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(154).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(155).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(156).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(157).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(158).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(159).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(160).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(161).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(162).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(163).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(164).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(165).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(166).axd" type="text/javascript"></script>
+<script src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/ScriptResource(167).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+null;if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B01ED1AF">
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="P7HJZ3ohShhbehdHBRLk6z3CtHbg7rfBwiVmZJiLAOf8_G0Kt8yNTtP6SNtKnYXlYFRynyugK6q0m_C6EJLOLBOKle2sa5aJuUzxnJ_OFuQTj-4hlTL7NwJT5UbAbPcs0">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAOgBImAJBC/s5hjUisQszUZiMYFBZYDVNXrnB/9WmjDFKj4JVgD3K4NYQ2hZi1Xe90kMbOXAv5nkJsTLImAlLMAzrgTtXOFN4S9x/YkfftVJET+rU7iTVOEcZnnn2A5T8mQIcJi/+22y2G+Qet4qrXx53mww7RPXw0FioCyGEWLwJzM97XuE8DDQcYh+ySshUvt0vIh3W3Oxma3DnNRCGRMHyNvnsiiN0dPGgBsoPTCPYwHgYFgJ/tYcnBLqW3XZn9235DfIBEqkzdEuL9JSsXkEkS3So+yjrLQLdwiJ7qkdsjfZH1xzOLE1HJTvDwS1VmXesVk2ubHjkBccQYjsQEriKWb1QLOi0v4De9MTU2K5/gBUjknalsOLPwDDeEC77aHdebvXh3s2uKsl1bYwf1MAQkF8elX7qSrFrsH1C62epKFFpFjIEAL+QaVroykBXO/yCqP8+EZiwiNq0ldk1lgYTYTsgVvFz09jdBveAXmOAqsrRUrKK7FEvSDa5ZaX4HTcOrwlVExggZJ19XtnZ9fjvbWTtvJ0Nlu4F+bZ+e836aY2uOTaW3+mMGq707t48nswv1q4pf0nNGpyKclsRmbAyRbUg/MZKamFmT8e7+reNyicngsLauYMDX1N8GaDnf9xjRkr9q1MP2DQmgPQ1rxuRq6ftqj+yZYQzKQqeQP/Q1XRfoGU4xU32sdMYGsCX1cbEJJZT/+oe0S8VFyZ09/+8UcfScq+XFEOUuUVrKwtBoGt0B4fXjpxPlnBpzNg4i8R+7GPZ5yoHvTD5KzRNYA66hFA06crop5DqUPlfRAXXpZyhjKO645tu1sXbCVT3vJKzUi8p21VyzVLMYP2jWQQHYKHEnF8JfseE9pXY1UIkMqZvl77Eltq8HCOc/5HhRSFEqlxG3+BBylzaK9vfQOo9EBdlzpRXJ/85bqqlhIHg79HpPYWHd26SZoU5AmE8d7+gINGxIoCzKmGsK/sYbjrj4Rh2mBggjVQJQf8ZltTJUVKw77tKcV4dziNdaLlYyxIGmNO6h5DOpzrF3++eXD2ktnDN8m6ATHLrSL5n0VWifXlOaTkUzVtEMqcoPMFPCFLU2vPJPgB8aSmFNsX6rgJz9+VKqV8HLLDUhTlQYFpLIuBzEmnv4f60NcQoOjCurRHN8Hm74BhNwoE6tZR2lyWvo4XmUjOoR5U28HR9MEY9aLpHlzoQfw8E975hho7SVoa85E8DXG/qcxxgd2M2oiB20WYbMU0s7htqWl3zS0bR9bz8vwWijux+KYznc25aV9gAD2Prn3YcBTma1qLrROaAJA1/A+LceHe9lIBWBSPjETBzU8cuFa5joWkWlu+ZYakVi8viH04wK+iiOXB4wL6vi6nJ+4lq29x2Dss1wi+wcLzmIpC93nhSZC/83veKaRFZZSgTUTDbRbi8b4HzMtMWrjdbCs8appA8YWLegFyCB5YYivzsyouUn1QofzP/KJPIqnEhPAShilwkl3az2Wh7IkfUQRFyJb3uzFmyu2sucbiX159AVeP3ZTYW+2kaH9frUgsu832Ol+s1rNOIkA494twj9hJWiXtqJN5Azs6kqNCWjtUbOI9EvylI3Wf0LDHzdWwhsbQ/MaPa7TeMNQA2CqqOgIKN4KWDMsqPkYsXwJOpHv1aHSVsm+54ZIkbQBSdG7IP/qPaHuAmL3FfQC2FGcSKq1tOl2/4PxJx9bIPdk2GDffm8qwXHPqm7tugJq1ZRCDkgvRTR66W3b3eeLz3xPHcf7nVS9KNmI5Aa6Sg8qpxfWCqg0Rkk+DLxzLUXhiFn4/qraGtzDKJz0tE01BqasrLNwao0F1jc7sjVcgaDR8d97GpK8Xn0swqwa2mcQz9/jwrWG+0E3UfCaUHMevifrFdq+4zfi+RYjCxGQiI7R7/yCZno03ON7HNw330ipiogppP47fn+RJm41Hx6O5AWtuZ9b1nABcrVXSNUH7GSutbjgI5xBKALuYQiCxTgUv3IeA1LFaVpR0cOKO+qivEefK3SphcQ0K0ilwFrY/i9G+J4B48tWXuzZTw1AJpk5ax8xzcCUkdVs4kTc5Gy1N0hpOx4VBGl+rDNasx7FqcHNLKxjMhN1NBc91ivDEI+ozs4POwQQyzZSp2BjumF7P8IGPRphxUSrKBwz4AZoQlCsKbVbxBzXVBA240wFzgSx8rbFLBNtRkkDYFE0pa6lfbFvI8jLn32TOJ0JMTl70eI+j295RrzKQIr4uI5tTruvInx+cx5Srj1TibyiZwaUcV8XPc8L0nPK+a6xBunEo12DhOGYC9h9SG2jlobi3DtraRnjOC8ItsQCMdzc5S5nbDGq/xNkpeIcuAHz11DO/yiuQBI0DcwcYtfb0/ixioIWXwt1ElPgypvvU2nmEzCulTjTCmjhR+EGUkvPnhkVs5kcO9HgER1OSoU/ICTMzvjDe9A0gbHaJkea8zsith/VDcEnqsMNGAJc2TwVAoVZ/krxVYG0mJZzL6oq3F3rVFvEfavKVJpFXJFVUwTUqzlvPG5g/PFUOCAKvk0v2gYvXXVo4ALdLzBA3NF8+Fc6n8mNxgr5o0cIOVEuuqW0ZkLmwLumE/PEXkyrYMMnCowBkIKA11bJmHPTVWO63dMOOxUyAx1COQZDDBCk6S+16WqhiDc+W0+1LvETVboQ3sw9q9QQPJcE0ScukPlQ+fbZo7V8T8zEIlH+MggEIE0MBAsHjKnT17VC+zMAvfksaEyMsDent42e8GmBhFIwRYaY+318hAKtodsbZdEmT/Po4ZMBoHz7ne03JnWV8NSXh90fAxh7ghfOi1W1t3UrpE3Z8YAoaSERdL60xDofMIpN0neuId+xvwEtnt5pw/hwXp5cFA2PsqYeDKsBSICyrHEdRqk6bAEMr84V+fkSnMX2GuKUm3Zx2B8qc3AwgoZzwZtd2m2JTn12QzsUdCtEQ8oKJYoa6RpkpEdON0DL+hYMvMnArYjCUqy7gQZyStfU0k7Ab9jEXobdYmx6obCDAr1PLhb2s3IuBIrp5S6t4GeLO252xL7Yn+Aogr1U85X52CEUIzcCzR0p1VdzLP/uJdPB0xWmiSMV8WYbD1NcTnSzpmsUljCFpchChcSzuXJPhejNDg4jSYyy0JNb+Kyi6t8eGIQ6Zm7pt+r9X/Z+qtDVvmjQ2nG93bvihY8gtfH9/bZZlXyAkri9CcQob6WTYdI8FCf+rt6s3bViNaOL3CgPuQhZW5OImV2MZGEecf7hbRxyuFIwoCtMYs/5vHq32JZVYDNjVpzrEj4LCaZ/kur1JmNefvTAgqnHqQ6Sq1LDyI2pWY9Vs+yFk/YT9lgNeYgUNuBmIp38tgBT1SCkLnYYZG/n7UdbK6idecYFD7nsfGLsod2WbnkWd0SThgHf7ORuqq3PJhF+3Q304sM5MhXkv8n1wI9GJbmkKOyj6gz2fjrEQr1FhnlywuagcrOtBanzbwz3a9oD39bGbqm1mxLdbXlTTa+Kq6tmubPLUhd+pHPv37HUlga1+kVr0MTdT42b2U/TW0NokZQ4Ocd6u/LALxPvV51MATVn9h1SazQVJ7ZSkSQal2eDD9BdTi8YuJZCJVg3UFmoj58K10HqJUna2D+Ox5R8C9KcE9WhuWwmb14YQtA6g8whQrI2zXWx46QpmfEEM36MwzcchbeZKtjjjx4dTH1GC5TSvumTMAyiTZiuY2AERackgiFw8sHSJue5g7FHr0NkCdrw7KG4oBEfTNJVLNMQaxmvzlKPq9anGGRZOL+shMHvFWdOWhuARgdaj3JARXYU9KOEFnWVHzFhCkA8+r8yv3SY9YmGPh3YlUoik9YWA8kKZZ7phojn9OvufaiPFFIOYpltcBDlQJ5PW5/LVr3QpXHPcbCVXlW/J1OLIzxIqnWL77VLhQWusAYYD4eI9MznMOclUhiKcY0KIBNoa5gyS9WrOo514DJGH82LqucOIF8dxBFJnT7Bl1B4CsmJD03DkOLv7BBqgGT5vvma+8li69hBeat3IFLj+MrCIuvDCTjIuBUT+4ktMb5yrnzugdUctiAEmCGxQAaqM1AS1ZWLLiD+oogXPYi+qK1ZE9WalurhyO58QzrL9YyPea0zi0P9Iuv1CntaDEYpEqQOsTZwHJy2P1mw6qeuM6Hk8Pb/QqKUIQs0ChPgvFEqk8bvD1BTS+kFiGz6N3OHjfMCeMmvkD15Nhpx1bhFbMyy9H2eTw/H83dQeTqzNPZA5D0X9BSU2bS/KlRVqHb3UcWnn1PZ+ln+ZlywG9Xy2/wt7tzVmFCHRpkjqsWPdsJRsREIJsZB6Cz2NbAwxHMn3LWFvvchEX+TUX1oXooJI/2Z1vhw+a1TwpTW5fe4BfdCUz+n1gUYFdVF+u3FiYQSoVe7TVRp+ofTU9s/7FXCepgTyg6vXnVfX8nTr+aOnVzCPOlXcJy9GJpEMe1pnODtOuS+oMmcR4ZW68PSZFESNChYadk+IzL3OBkuJvENTrAlnGCwj+J1aGVk8fZGfGku7hBX9WUylKeBNmDQdeh1ytDmDAIN0i0qIkHfpMs5tkctzL1W/b65P+ZgPnWU+xk4r1JmDRgVYqZspyMhdpp3jR68bqlOTFzcvMi9BLaAQwjEXrQNtF1EXITRFcSGWHupBm+R+FiB5sid00z7LcCkTp1X2HyD+HDgaVCYpXFWzrEN986ZNZ1PETMIwD6n31CIwB6hdAQLRJ2lTCjS133iRUwe1Ka2OM/3NvZA4AC/T+qJkOVa5LoqqxO3NaIrbb1NwiC+hOaQ0xv9VBmJ06oC4tTIGlshsrJ51ePbM/qylJsvgUC9VwcycRn+m1LKiok37o6zL/t+p80dBPNbIJw/+0+z3HlxRF/HB0iZ/c8PIPJGJfLkop88flP06Zc4JdNDHXm9Da4O3lsspQfW60kpDQTD94YWFZUDlhv7UnV3LJeCzLJoGQo255OgbCr6XQdYM+s0b4BNrA2jUZYxm4E7s5XRWjXuWbq5mFcw5oNPzjAheO7ls">
+</div>  
+       
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$tsk1', 'ctl01', ['tctl00$MainContent$UpdatePanel1','MainContent_UpdatePanel1'], [], ['ctl00$MainContent$Button2','MainContent_Button2'], 90, 'ctl00');
+//]]>
+</script>
+ 
+    <div class="page">
+         <div class="header">
+        
+        </div>
+        <div class="menucontainer">
+            <table width="100%" cellspacing="0">
+                <tbody><tr>
+                    
+                    <td class="clear topscroll" align="left">
+                        <table cellspacing="0" class="TopMenuSP1">
+	<tbody><tr>
+		<td>
+                                    <a id="LinkButton1" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LinkButton1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="font-weight:bold;">Home</a> <br>
+                                   
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                   
+                    <td class="RightCorner">
+                        
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+        <table width="100%">
+            <tbody><tr>
+            
+                <td>
+      
+                    <div class="main">
+                        
+    <input type="hidden" name="ctl00$MainContent$hdnMethodCapture" id="MainContent_hdnMethodCapture" value="http://127.0.0.1:11100/capture">
+
+    <div style="padding-bottom: 10px; padding-top: 10px;">
+
+        <table width="100%">
+            <tbody><tr>
+                <td align="center" colspan="2">
+                    <div id="Div1" class="BoxF" style="border: 1px solid #999999; width: 930px; padding: 0px;" align="left">
+                        <div style="background-color: #D5EBE2; color: #000000; margin: 0; line-height: 20pt; font-size: 22pt; text-align: center; height: 32px;color:green">
+                            <strong>Without Finger Kishan Reg
+                                              By-Firdos Online Studio
+ 
+</strong>
+                        </div>
+                        <hr style="clear: both; margin: 6px 0px;">
+                </div></td>
+            </tr>
+
+        </tbody></table>
+        <table width="100%">
+            <tbody><tr>
+                <td align="left" style="font-size: 12px;">
+                    <span id="MainContent_lblsessiondata" style="color:Red;font-weight:bold;" contact="" no="" :-=""></span></td>
+                <td align="right" style="font-size: 12px;">
+                    <a id="MainContent_lnkLogout" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$lnkLogout&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"></a>
+                </td>
+            </tr>
+        </tbody></table>
+        <div id="MainContent_pnlaadhaarver" style="font-family:Comic Sans MS;font-size:13px;">
+	
+
+            <div class="panel panel-success">
+                <div class="panel-heading"></div>
+                <div class="panel-body" style="font-size: 12px;">
+                    <table>
+                        <tbody><tr>
+                            <td colspan="3"><b><font style="font-family: verdana; font-size: large; color: #0000FF"></font></b></td>
+                            <td>
+                                &nbsp;</td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="font-size: 12px;">
+                                <div>
+                                    
+
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody></table>
+
+                </div>
+            </div>
+        
+</div>
+
+
+        
+        
+
+        
+
+        
+
+        <div id="MainContent_pnlTypeofReg">
+	
+            <table width="100%" class="table table-bordered">
+                <tbody><tr>
+                    <td style="font-family: Verdana; font-size: 12px;" colspan="2" valign="middle">Aadhaar Authentication:
+            <img id="MainContent_Image1" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/auth.png" style="width:35px;">
+                    </td>
+                    <td style="font-family: Verdana; font-size: 50px;color:green">&nbsp;Well Come To New Kishan Reg Portel</td>
+                    
+                </tr> ------------------------------------------------------------------------------------------------> <---------------------------------------------------------------------------------------------------------------
+
+                <tr>
+                    <td style="font-family: Verdana; font-size: 12px;">
+                        <input id="MainContent_chkFarmer" type="checkbox" name="ctl00$MainContent$chkFarmer" checked="checked" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$chkFarmer\&#39;,\&#39;\&#39;)&#39;, 0)"><label for="MainContent_chkFarmer"></label>
+                    </td>
+                    <td style="font-family: Verdana; font-size: 12px;">
+                        <span class="aspNetDisabled"><input id="MainContent_chkVender" type="checkbox" name="ctl00$MainContent$chkVender" disabled="disabled" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$chkVender\&#39;,\&#39;\&#39;)&#39;, 0)"><label for="MainContent_chkVender"></label></span>
+                    </td>
+                    <td style="font-family: Verdana; font-size: 12px;">
+                        <span class="aspNetDisabled"><input id="MainContent_chkSheed" type="checkbox" name="ctl00$MainContent$chkSheed" disabled="disabled" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$chkSheed\&#39;,\&#39;\&#39;)&#39;, 0)"><label for="MainContent_chkSheed"></label></span>
+                    </td>
+                </tr>
+
+            </tbody></table>
+        
+</div>
+    </div>
+
+
+    <div id="MainContent_UpdatePanel1">
+	
+            <div id="MainContent_pnlKisan">
+		
+
+                <div id="MainContent_pnlpersonalinfo" style="border-style:Double;font-family:Comic Sans MS;font-size:13px;">
+			
+                    <div class="panel panel-success">
+                        <div class="panel-heading" style="font-weight: bold;"></div>
+                        <div class="panel-body" style="font-size: 12px;">
+                            <table class="table table-bordered">
+                                <tbody><tr style="border-style: solid; border-width: thin">
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td align="right" class="style3"></td>
+                                    <td>
+                                        <span id="MainContent_lblfinyear" style="color:Green;font-weight:bold;">2018-19</span>
+                                    </td>
+                                    
+ <td align="right"></td>
+                                    <td>
+                                            <select name="ctl00$MainContent$ddlKisan" id="MainContent_ddlKisan" class="btn btn-default dropdown-toggle" style="width:150px;">
+				<option value="0"></option>
+				<option selected="selected" value="1"></option>
+				<option value="2"></option>
+
+			</select>
+                          
+
+                                    </td>
+                                </tr>
+                                <tr style="border-style: solid; border-width: thin">
+                                    <td align="right">
+                                        <font color="Red">*</font>kishan ka name
+                                    </td>
+                                    <td>
+                                        <input name="ctl00$MainContent$txtfirstName" type="text" value="" maxlength="20" id="MainContent_txtfirstName" class="aspNetDisabled uppercase form-control" onkeypress="return ValidateAlpha(event);" style="width:200px;">
+                                        <span id="MainContent_RequiredFieldValidator4" style="color:Red;display:none;"></span>
+                                        
+                                    </td>
+                                    <td align="right">
+                                    </td>
+                                    <td>
+                                        <input name="ctl00$MainContent$txtLastName" type="text" maxlength="20" id="MainContent_txtLastName" disabled="disabled" class="aspNetDisabled uppercase form-control" onkeypress="return ValidateAlpha(event);" style="width:200px;">
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right" class="style3">
+                                        <font color="Red">*</font>
+                                    </td>
+                                    <td>
+                                        <input name="ctl00$MainContent$txtFatherName" type="text" value="" maxlength="50" id="MainContent_txtFatherName" class="uppercase form-control" onkeypress="return ValidateAlpha(event);" style="width:200px;">
+                                        <span id="MainContent_RequiredFieldValidator5" style="display:none;"></span>
+                                        
+                                    </td>
+                                    <td valign="top" align="right" class="style3"><font color="Red">*</font>
+                                        
+                                    </td>
+
+                                    <td colspan="3">
+                                        <input name="ctl00$MainContent$txtDOB" type="text" value="" maxlength="11" id="MainContent_txtDOB" class="form-control" style="width:200px;">
+                                        <input type="hidden" name="ctl00$MainContent$TextBoxWatermarkExtender1_ClientState" id="MainContent_TextBoxWatermarkExtender1_ClientState">
+                                        <img id="MainContent_imgcal" class="smallSize" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/Calendar_scheduleHS.png">
+                                        [31-02-1978]
+            <span id="MainContent_regexpName" class="smallSize" style="border-color:Red;visibility:hidden;">This date of birth is not validate.</span>
+                                        <span id="MainContent_RangeValidator2" class="smallSize" style="visibility:hidden;">Invalid DOB. It must be between 01-Jan-950 to 31-Dec-2002.</span>
+                                        
+                                        <span id="MainContent_RequiredFieldValidator14" class="smallSize" style="display:none;"></span>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right" class="style3"></td>
+                                    <td class="style1">
+                                        <span id="MainContent_lbltotalage" class="label label-danger">67</span>
+                                    </td>
+                                    <td align="right" class="style3"><font color="Red">*</font>
+                                        
+                                    </td>
+                                    <td>
+                                        <select name="ctl00$MainContent$ddlGender" id="MainContent_ddlGender" class="btn btn-default dropdown-toggle" style="width:150px;">
+				<option value="0"></option>
+				<option value="1"></option>
+				<option selected="selected" value="2"></option>
+				<option value="3"></option>
+
+			</select>
+                                        <span id="MainContent_RequiredFieldValidator13" style="visibility:hidden;">*</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right" class="style3"><font color="Red">*</font></td>
+                                    <td>
+                                        <select name="ctl00$MainContent$ddlcast" id="MainContent_ddlcast" class="btn btn-default dropdown-toggle" style="width:200px;">
+				<option value="0"></option>
+				<option value="1"></option>
+				<option value="2"></option>
+				<option value="3"></option>
+				<option value="4"></option>
+				<option selected="selected" value="5"></option>
+				<option value="6"></option>
+
+			</select>
+                                        <span id="MainContent_RequiredFieldValidator8" style="visibility:hidden;">*</span>
+                                    </td>
+                                    <td align="right" class="style3"><font color="Red">*</font></td>
+                                    <td>
+                                        <select name="ctl00$MainContent$ddlfarmertype" id="MainContent_ddlfarmertype" class="btn btn-default dropdown-toggle" style="width:150px;">
+				<option value="0"></option>
+				<option value="1"></option>
+				<option selected="selected" value="2"></option>
+				<option value="3"></option>
+
+			</select>
+                                        <span id="MainContent_RequiredFieldValidator9" style="visibility:hidden;">*</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right" class="style3"><font color="Red">*</font></td>
+                                    <td>
+                                        <select name="ctl00$MainContent$ddldistric" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$ddldistric\&#39;,\&#39;\&#39;)&#39;, 0)" id="MainContent_ddldistric" class="btn btn-default dropdown-toggle" style="width:200px;">
+				<option value="0">--??? ????--</option>
+				<option value="209">ARARIA</option>
+				<option value="240">ARWAL</option>
+				<option value="235">AURANGABAD</option>
+				<option value="225">BANKA</option>
+				<option value="222">BEGUSARAI</option>
+				<option value="224">BHAGALPUR</option>
+				<option value="231">BHOJPUR</option>
+				<option value="232">BUXAR</option>
+				<option value="215">DARBHANGA</option>
+				<option value="236">GAYA</option>
+				<option value="217">GOPALGANJ</option>
+				<option value="238">JAMUI</option>
+				<option value="239">JEHANABAD</option>
+				<option value="233">KAIMUR</option>
+				<option value="212">KATIHAR</option>
+				<option value="223">KHAGARIA</option>
+				<option value="210">KISHANGANJ</option>
+				<option value="227">LAKHISARAI</option>
+				<option selected="selected" value="213"></option>
+				<option value="207">MADHUBANI</option>
+				<option value="226">MUNGER</option>
+				<option value="216">MUZAFFARPUR</option>
+				<option value="229">NALANDA</option>
+				<option value="237">NAWADA</option>
+				<option value="203">PASHCHIM CHAMPARAN</option>
+				<option value="230">PATNA</option>
+				<option value="204">PURBI CHAMPARAN</option>
+				<option value="211">PURNIA</option>
+				<option value="234">ROHTAS</option>
+				<option value="214">SAHARSA</option>
+				<option value="221">SAMASTIPUR</option>
+				<option value="219">SARAN</option>
+				<option value="228">SHEIKHPURA</option>
+				<option value="205">SHEOHAR</option>
+				<option value="206">SITAMARHI</option>
+				<option value="218">SIWAN</option>
+				<option value="208">SUPAUL</option>
+				<option value="220">VAISHALI</option>
+
+			</select>
+                                        <span id="MainContent_RequiredFieldValidator10" style="visibility:hidden;">*</span>
+                                    </td>
+                                    <td align="right" class="style3"><font color="Red">*</font></td>
+                                    <td>
+                                        <select name="ctl00$MainContent$ddlblock" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$ddlblock\&#39;,\&#39;\&#39;)&#39;, 0)" id="MainContent_ddlblock" class="btn btn-default dropdown-toggle" style="width:150px;">
+				<option value="0"></option>
+				<option value="1169">ALAMNAGAR</option>
+				<option value="1166">BIHARIGANJ</option>
+				<option selected="selected" value="1170"></option>
+				<option value="1158">GAMHARIYA</option>
+				<option value="1160">GHELARH</option>
+				<option value="1165">GWALPARA</option>
+				<option value="1163">KUMARKHAND</option>
+				<option value="1161">MADHEPURA</option>
+				<option value="1164">MURLIGANJ</option>
+				<option value="1168">PURANI</option>
+				<option value="1162">SHANKARPUR</option>
+				<option value="1159">SINGHESHWAR</option>
+				<option value="1167">UDA KISHANGANJ</option>
+
+			</select>
+                                        <span id="MainContent_RequiredFieldValidator6" typesetfocusonerror="true" style="visibility:hidden;">*</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right" class="style3"><font color="Red">*</font></td>
+                                    <td>
+                                        <select name="ctl00$MainContent$ddlpanchayat" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$ddlpanchayat\&#39;,\&#39;\&#39;)&#39;, 0)" id="MainContent_ddlpanchayat" class="btn btn-default dropdown-toggle" style="width:200px;">
+				<option value="0">--??? ????--</option>
+				<option value="97002">ARAJIPUR EAST</option>
+				<option value="97003">ARAJIPUR WEST</option>
+				<option value="97004">CHIRORI</option>
+				<option value="97005">CHOUSA EAST</option>
+				<option value="97006">chousa WEST</option>
+				<option value="97007">FULAUT EAST</option>
+				<option value="97008">FULAUT WEST</option>
+				<option value="97009">GHOSAI</option>
+				<option value="97010">LAWALAGAN  EAST</option>
+				<option selected="selected" value="97011"></option>
+				<option value="97012">MORSANDA</option>
+				<option value="97013">PAINA</option>
+				<option value="97014">RASALPUR DHURIA</option>
+
+			</select>
+                                        <span id="MainContent_RequiredFieldValidator7" typesetfocusonerror="true" style="visibility:hidden;">*</span>
+                                    </td>
+                                    <td align="right" class="style3"><font color="Red">*</font></td>
+                                    <td>
+                                        <select name="ctl00$MainContent$ddlvill" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$ddlvill\&#39;,\&#39;\&#39;)&#39;, 0)" id="MainContent_ddlvill" tabindex="1" class="btn btn-default dropdown-toggle" style="width:150px;">
+				<option value="0"></option>
+				<option value="226226">Amanat Hedaetullah Subedar</option>
+				<option value="226223">Amanat Manullah Jamadar</option>
+				<option value="226218">Amanat Manullah Subedar</option>
+				<option value="226220">Amanat Mungi Khan Subedar</option>
+				<option value="226209">Arajpur</option>
+				<option value="226208">Bhatgawan</option>
+				<option value="226222">Bhola Singh Jamadar</option>
+				<option value="226233">Chamru Hawaldar Jagir</option>
+				<option value="226213">Chausa</option>
+				<option value="226212">Chausa Amanat Sarkar</option>
+				<option value="226207">Damar Singh Havaldar Jagir</option>
+				<option value="226216">Dhanseshpur</option>
+				<option value="226205">Din Mohammad Subedar Jagir</option>
+				<option value="226204">Din Mohammad Subedar Jagir</option>
+				<option value="226214">English Ghosai</option>
+				<option value="226234">English Ghosai</option>
+				<option value="226224">Etwari Jamadar Jagir</option>
+				<option value="226215">Ghosai</option>
+				<option value="226236">Govind Ram Kumedan Jagir</option>
+				<option value="226235">Hasan Sharif Jamadar Jagir</option>
+				<option value="226227">Hidaetullah Jamadar Jagir</option>
+				<option value="226203">Jamman kumedan Jagir</option>
+				<option value="226201">Jit Singh Subedar Jagir</option>
+				<option value="226231">Kewat Ram Subedar Jagir</option>
+				<option value="226219">Khan Kumedan Jagir</option>
+				<option selected="selected" value="226199"></option>
+				<option value="226200">Laualagaon Amanat Sarkar</option>
+				<option value="226221">Manullah Subedar Jagir</option>
+				<option value="226230">Mohamad Hanif Kumedan Jagir</option>
+				<option value="226202">Mohammad Heat Kumedan Jagir</option>
+				<option value="226210">Mohammad Jafar Subedar Jagir</option>
+				<option value="226211">Mohammad Jafar Subedar Jagir</option>
+				<option value="226196">Morsanda</option>
+				<option value="226232">Niamatullah Sipahi Jagir</option>
+				<option value="226198">Pachrasi</option>
+				<option value="226197">Pachrasi Amanat Sarkar</option>
+				<option value="226225">Pahari Subedar Jagir</option>
+				<option value="226217">Paina</option>
+				<option value="226195">Phulaut</option>
+				<option value="226228">Ramakant Subedar Jagir</option>
+				<option value="226237">Rasulpur Dhuria</option>
+				<option value="226206">Sardar Khan Sipahi Jagir</option>
+				<option value="226229">Subhani Subedar Jagir</option>
+
+			</select>
+                                        <span id="MainContent_RequiredFieldValidator12" typesetfocusonerror="true" style="visibility:hidden;">*</span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right" class="style4"><font color="Red">*</font>
+                                        
+                                    </td>
+                                    <td align="left">
+                                        <input name="ctl00$MainContent$TextBox1" type="text" value="+91" readonly="readonly" id="MainContent_TextBox1" tabindex="-1" class="form-control" style="width:60px;">
+                                        -
+            
+            <input name="ctl00$MainContent$txtMobile" type="text" value="" maxlength="10" id="MainContent_txtMobile" class="form-control" onkeypress="return validate(event)" style="width:150px;">
+                                        <span id="MainContent_RequiredFieldValidator3" class="smallSize" typesetfocusonerror="true" style="visibility:hidden;">*</span>
+                                        <span id="MainContent_RegularExpressionValidator5" class="smallSize" style="color:Red;display:none;"><br>Mobile Number must be 10 digit</span>&nbsp;&nbsp;&nbsp;&nbsp;
+           
+                                    </td>
+                                    <td align="right" class="style4">
+                                        </td>
+                                    <td>
+                                        </td>
+                                </tr>
+                            </tbody></table>
+
+                        </div>
+                    </div>
+                
+		</div>
+                <div id="MainContent_pnlbank" style="border-style:Double;font-family:Comic Sans MS;font-size:13px;">
+			
+                    <div class="panel panel-success">
+                      
+ <div class="panel-heading" style="font-size:15px; color:red; font-weight:bold; "></div>
+                        <div class="panel-body" style="font-size: 12px;">
+                            <table width="100%">
+                                <tbody><tr>
+                                    
+
+
+                                    <td colspan="2" align="left"><font color="Red">*</font>
+                                        <span id="MainContent_lblbankname"></span>
+                                    </td>
+                                    <td colspan="2">
+
+                                        <select name="ctl00$MainContent$ddlbankname" id="MainContent_ddlbankname" class="btn btn-default dropdown-toggle" style="width:175px;">
+				<option value="0"></option>
+				<option value="ALLAHABAD BANK">ALLAHABAD BANK</option>
+				<option value="ANDHRA BANK">ANDHRA BANK</option>
+				<option value="Aurangabad District Central Co-Operative Bank Ltd.">Aurangabad District Central Co-Operative Bank Ltd.</option>
+				<option value="AXIS BANK">AXIS BANK</option>
+				<option value="Bandhan Bank">Bandhan Bank</option>
+				<option value="BANK OF BARODA">BANK OF BARODA</option>
+				<option value="BANK OF INDIA">BANK OF INDIA</option>
+				<option value="BANK OF MAHARASHTRA">BANK OF MAHARASHTRA</option>
+				<option value="BANK OF MAHARASHTRA">BANK OF MAHARASHTRA</option>
+				<option value="Begusarai Central Co-Operative Bank Ltd.">Begusarai Central Co-Operative Bank Ltd.</option>
+				<option value="Bihar Gramin Bank">Bihar Gramin Bank</option>
+				<option value="Bihar State CO-OP Bank Ltd">Bihar State CO-OP Bank Ltd</option>
+				<option value="CANARA BANK">CANARA BANK</option>
+				<option value="CENTRAL BANK OF INDIA">CENTRAL BANK OF INDIA</option>
+				<option value="Central Co-Operative Bank Ara Ltd.">Central Co-Operative Bank Ara Ltd.</option>
+				<option value="Central Co-Operative Bank Ltd.">Central Co-Operative Bank Ltd.</option>
+				<option value="CITI BANK">CITI BANK</option>
+				<option value="CORPORATION BANK">CORPORATION BANK</option>
+				<option value="Dakshin Bihar Gramin Bank">Dakshin Bihar Gramin Bank</option>
+				<option value="DENA BANK">DENA BANK</option>
+				<option value="FEDERAL BANK">FEDERAL BANK</option>
+				<option value="Fino Payments Bank">Fino Payments Bank</option>
+				<option value="Gopalganj Central Co-Operative Bank Ltd.">Gopalganj Central Co-Operative Bank Ltd.</option>
+				<option value="HDFC BANK">HDFC BANK</option>
+				<option value="ICICI BANK LIMITED">ICICI BANK LIMITED</option>
+				<option value="IDBI BANK">IDBI BANK</option>
+				<option value="IDFC Bank">IDFC Bank</option>
+				<option value="INDIAN BANK">INDIAN BANK</option>
+				<option value="INDIAN OVERSEAS BANK">INDIAN OVERSEAS BANK</option>
+				<option value="Indian Post Payments Bank(IPPB)">Indian Post Payments Bank(IPPB)</option>
+				<option value="INDUSIND BANK">INDUSIND BANK</option>
+				<option value="JAMMU AND KASHMIR BANK LIMITED">JAMMU AND KASHMIR BANK LIMITED</option>
+				<option value="Jana Bank">Jana Bank</option>
+				<option value="Katihar District Central Co-Operative Bank Ltd">Katihar District Central Co-Operative Bank Ltd</option>
+				<option value="Khagaria District  Central Co-Operative Bank Ltd.">Khagaria District  Central Co-Operative Bank Ltd.</option>
+				<option value="KOTAK MAHINDRA BANK LIMITED">KOTAK MAHINDRA BANK LIMITED</option>
+				<option value="Madhya Bihar Gramin Bank">Madhya Bihar Gramin Bank</option>
+				<option value="Magadh Central Co-Operative Bank Ltd.">Magadh Central Co-Operative Bank Ltd.</option>
+				<option value="Monghyr-Jamui Central Co-Operative Bank Ltd">Monghyr-Jamui Central Co-Operative Bank Ltd</option>
+				<option value="Muzzafarpur Central Co-Operative Bank Ltd.">Muzzafarpur Central Co-Operative Bank Ltd.</option>
+				<option value="Nalanda Central Co-Operative Bank Ltd.">Nalanda Central Co-Operative Bank Ltd.</option>
+				<option value="National Central Co-Operative Bank Ltd.">National Central Co-Operative Bank Ltd.</option>
+				<option value="Nawada Central Co-Operative Bank Ltd.">Nawada Central Co-Operative Bank Ltd.</option>
+				<option value="ORIENTAL BANK OF COMMERCE">ORIENTAL BANK OF COMMERCE</option>
+				<option value="Patliputra Central Co-Operative Bank Ltd.">Patliputra Central Co-Operative Bank Ltd.</option>
+				<option value="PUNJAB AND SIND BANK">PUNJAB AND SIND BANK</option>
+				<option value="PUNJAB NATIONAL BANK">PUNJAB NATIONAL BANK</option>
+				<option value="Purnea Central Co-Operative Bank Ltd.">Purnea Central Co-Operative Bank Ltd.</option>
+				<option value="Rohika Central Co-Operative Bank Ltd.">Rohika Central Co-Operative Bank Ltd.</option>
+				<option value="Samastipur Central Co-Operative Bank Ltd.">Samastipur Central Co-Operative Bank Ltd.</option>
+				<option value="Sasaram-Bhabhua Central Co-Operative Bank Ltd.">Sasaram-Bhabhua Central Co-Operative Bank Ltd.</option>
+				<option value="SBI">SBI</option>
+				<option value="STANDARD CHARTERED BANK">STANDARD CHARTERED BANK</option>
+				<option value="STATE BANK OF BIKANER AND JAIPUR">STATE BANK OF BIKANER AND JAIPUR</option>
+				<option value="STATE BANK OF HYDERABAD">STATE BANK OF HYDERABAD</option>
+				<option value="STATE BANK OF MYSORE">STATE BANK OF MYSORE</option>
+				<option value="STATE BANK OF PATIALA">STATE BANK OF PATIALA</option>
+				<option value="STATE BANK OF TRAVANCORE">STATE BANK OF TRAVANCORE</option>
+				<option value="SYNDICATE BANK">SYNDICATE BANK</option>
+				<option value="The Bhagalpur Central Co-Operative Bank Ltd.">The Bhagalpur Central Co-Operative Bank Ltd.</option>
+				<option value="The Motihari Central Co-Operative Bank Ltd.">The Motihari Central Co-Operative Bank Ltd.</option>
+				<option value="The Sitamarhi Central Co-Operative Bank Ltd.">The Sitamarhi Central Co-Operative Bank Ltd.</option>
+				<option value="The Siwan Central Co-Operative Bank Ltd.">The Siwan Central Co-Operative Bank Ltd.</option>
+				<option value="UCO BANK">UCO BANK</option>
+				<option value="Ujjivan Finance">Ujjivan Finance</option>
+				<option value="UNION BANK OF INDIA">UNION BANK OF INDIA</option>
+				<option value="UNITED BANK OF INDIA">UNITED BANK OF INDIA</option>
+				<option value="Utkarsh Small Finance Bank">Utkarsh Small Finance Bank</option>
+				<option selected="selected" value="Uttar Bihar Gramin Bank">Uttar Bihar Gramin Bank</option>
+				<option value="Vaishali District Central Co-Operative Bank Ltd">Vaishali District Central Co-Operative Bank Ltd</option>
+				<option value="VIJAYA BANK">VIJAYA BANK</option>
+				<option value="YES BANK">YES BANK</option>
+
+			</select>
+                                        <span id="MainContent_rqrfldvalbankname" style="visibility:hidden;">*</span>
+                                    </td>
+                                    <td><font color="Red">*</font>
+                                        <span id="MainContent_lblifsccode"></span></td>
+                                    <td>
+                                        <input name="ctl00$MainContent$txtifsccode" type="text" value="" maxlength="11" id="MainContent_txtifsccode" class="uppercase form-control">
+                                        
+                                        <span id="MainContent_regexifsc" style="color:Red;display:none;">IFSC code is not valid</span>
+                                        <span id="MainContent_RequiredFieldValidator132" style="visibility:hidden;">*</span>
+                                </td></tr>
+
+                                <tr>
+
+                                    <td colspan="2" align="left"><font color="Red">*</font>
+                                        <span id="MainContent_lblaccount"></span>
+                                    </td>
+                                    <td colspan="2">
+                                        <input name="ctl00$MainContent$txtaccount" type="text" value="" maxlength="16" id="MainContent_txtaccount" onkeypress="return validate(event)" class="form-control" style="width:150px;">
+                                        <span id="MainContent_rqrfldvalbanknac" style="visibility:hidden;">*</span>
+                                    </td>
+                                    <td>IFSC-Code </td>
+                                    <td>SBI-&gt;SBIN0008765</td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+
+                
+		</div>
+                <div id="MainContent_pnlaadhaar" style="border-style:Double;font-family:Comic Sans MS;font-size:13px;">
+			
+                    <div class="panel panel-success">
+                        <div class="panel-heading"></div>
+                        <div class="panel-body" style="font-size: 12px;">
+                            <table width="100%">
+                                <tbody><tr>
+                                    <td align="left" class="style3"><font color="Red">*</font>
+                                         Aadhar number inter
+                                    </td>
+                                    <td>
+                                        <input name="ctl00$MainContent$txtaadhaar" type="text" value="" maxlength="12" id="MainContent_txtaadhaar" class="aspNetDisabled" onkeypress="return validate(event)" style="width:150px;">
+                                        <span id="MainContent_RequiredFieldValidator2" typesetfocusonerror="true" style="display:none;">*</span>
+
+                                        <span id="MainContent_RegularExpressionValidator1" class="smallSize" style="display:none;"><br>Aadhhar Number must be 12 digit</span>
+                                        &nbsp;&nbsp;&nbsp;&nbsp; 
+                                    </td>
+
+                                    
+                                    
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <td><font color="Red">*</font><b>
+                                        </b></td>
+                                    <td>
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td colspan="4">
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="3">
+                                        &nbsp;&nbsp;
+                                &nbsp;&nbsp;
+                            &nbsp;
+                                        &nbsp; &nbsp;
+                                        
+                                        <input type="submit" name="ctl00$MainContent$Button2" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$Button2&quot;, &quot;&quot;, true, &quot;R&quot;, &quot;&quot;, false, false))" id="MainContent_Button2" title="Click to generate OTP &amp; after that change the Captcha text" class="btn btn-success" style="font-family:Algerian;font-weight:bold;">
+                                        
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="4" align="left">
+                                        <i style="font-family: Verdana; font-weight: bold">Note :-</i><br>
+                                        <i style="font-family: Verdana; font-weight: bold"></i><br>
+                                        <i style="font-family: Verdana; font-weight: bold"></i><br>
+                                        <i style="font-family: Verdana; font-weight: bold"></i><br>
+                                        <i style="font-family: Verdana; font-weight: bold"></i><br>
+                                        <i style="font-family: Verdana; font-weight: bold"></i><br>
+                                        <i style="font-family: Verdana; font-weight: bold"> </i><br>
+                                        <i style="font-family: Verdana; font-weight: bold"><font color="Red">*</font></i>
+                                        <div id="MainContent_ValidationSummary1" style="color:Maroon;font-weight:bold;display:none;">
+
+			</div>
+                                    </td>
+                                </tr>
+
+                            </tbody></table>
+                        </div>
+                    </div>
+                
+		</div>
+            
+	</div>
+        
+</div>
+    <br>
+
+
+            <input type="submit" name="ctl00$MainContent$btnShowPopup" value="" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnShowPopup&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_btnShowPopup" style="display: none">
+            
+            <div id="MainContent_pnlpopup" style="background-color: white; font-size: 14px; height: 190px; width: 800px; display: none; position: fixed; z-index: 100001;">
+	
+                <div class="panel panel-success">
+                        <div class="panel-heading">USER</div>
+                        <div class="panel-body" style="font-size: 12px;">
+                <table class="table table-bordered"> 
+                    
+                        <tbody><tr>
+                            <td>
+                                <input type="image" name="ctl00$MainContent$LNLcsc" id="MainContent_LNLcsc" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/CSC-Services.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$LNLcsc&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" style="height:50px;width:200px;">
+                            </td>
+                              <td>
+                                <input type="image" name="ctl00$MainContent$ImageButton1" id="MainContent_ImageButton1" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/sahaj.jpg" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$ImageButton1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;https://sevl.co.in/&quot;, false, false))" style="height:50px;width:200px;">
+                            </td>
+                              <td>
+                                <input type="image" name="ctl00$MainContent$ctl01" iid="btnAbc" src="file:///C:/Users/pk/Desktop/Agriculture%20Department_files/Guser.jpg" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$ctl01&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" style="height:50px;width:200px;">
+                            </td>
+                        </tr>
+                    <tr>
+                        <td colspan="3" align="center"> 
+
+                            <input type="submit" name="ctl00$MainContent$btnCloseee" value="Close" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnCloseee&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_btnCloseee" class="btn btn-danger">
+                        </td>
+                    </tr>
+                </tbody></table>
+                            </div> </div> 
+            
+</div>
+
+   
+
+
+
+
+
+    <input type="submit" name="ctl00$MainContent$btnShowPopupKCC" value="" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnShowPopupKCC&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_btnShowPopupKCC" style="display: none">
+    
+    <div id="MainContent_pnlPopupKCC" style="background-color: white; font-size: 14px; height: 190px; width: 800px; display: none; position: fixed; z-index: 100001;">
+	
+
+        <div class="panel panel-success">
+            <div class="panel-heading"></div>
+            <div class="panel-body" style="font-size: 12px;">
+                <table class="table table-bordered">
+
+                    <tbody><tr>
+                        <td>
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;
+                                    <input id="MainContent_chkCreditYes" type="checkbox" name="ctl00$MainContent$chkCreditYes" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$chkCreditYes\&#39;,\&#39;\&#39;)&#39;, 0)"><label for="MainContent_chkCreditYes">???</label>
+                                    &nbsp;&nbsp;&nbsp; 
+                                    <input id="MainContent_chkCreditNo" type="checkbox" name="ctl00$MainContent$chkCreditNo" checked="checked" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$chkCreditNo\&#39;,\&#39;\&#39;)&#39;, 0)"><label for="MainContent_chkCreditNo">????</label>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="color: red; font-weight: bold;">** Please enter correct account number. if you entered incorrect/Wrong account number. Your regsitration will be blocked. </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center">
+                            <input type="submit" name="ctl00$MainContent$btnSubmitKCC" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnSubmitKCC&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_btnSubmitKCC" class="btn btn-info">
+                        
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+    
+</div>
+
+
+
+
+
+                    <div id="MainContent_ModalPopupExtender1_backgroundElement" class="modalBackground" style="display: none; position: fixed; left: 0px; top: 0px; z-index: 10000;"></div><div id="MainContent_ModalPopupExtender2_backgroundElement" class="modalBackground" style="display: none; position: fixed; left: 0px; top: 0px; z-index: 10000;"></div></div>
+                </td>
+            </tr>
+          
+        </tbody></table>
+        <div class="clear">
+        </div>
+         <div align="center"> </div>
+        <div class="footer">
+           Copyright © 2018 Agriculture Department, All rights reserved..<br>
+               <b><a href="mailto:dbtcellagri@gmail.com">firdosonlinestudio@gmail.com</a> </b> &nbsp;
+
+</div>
+    </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("MainContent_ValidationSummary1"));
+var Page_Validators =  new Array(document.getElementById("MainContent_RequiredFieldValidator4"), document.getElementById("MainContent_RequiredFieldValidator5"), document.getElementById("MainContent_regexpName"), document.getElementById("MainContent_RangeValidator2"), document.getElementById("MainContent_RequiredFieldValidator14"), document.getElementById("MainContent_RequiredFieldValidator13"), document.getElementById("MainContent_RequiredFieldValidator8"), document.getElementById("MainContent_RequiredFieldValidator9"), document.getElementById("MainContent_RequiredFieldValidator10"), document.getElementById("MainContent_RequiredFieldValidator6"), document.getElementById("MainContent_RequiredFieldValidator7"), document.getElementById("MainContent_RequiredFieldValidator12"), document.getElementById("MainContent_RequiredFieldValidator3"), document.getElementById("MainContent_RegularExpressionValidator5"), document.getElementById("MainContent_rqrfldvalbankname"), document.getElementById("MainContent_regexifsc"), document.getElementById("MainContent_RequiredFieldValidator132"), document.getElementById("MainContent_rqrfldvalbanknac"), document.getElementById("MainContent_RequiredFieldValidator2"), document.getElementById("MainContent_RegularExpressionValidator1"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var MainContent_RequiredFieldValidator4 = document.all ? document.all["MainContent_RequiredFieldValidator4"] : document.getElementById("MainContent_RequiredFieldValidator4");
+MainContent_RequiredFieldValidator4.controltovalidate = "MainContent_txtfirstName";
+MainContent_RequiredFieldValidator4.focusOnError = "t";
+MainContent_RequiredFieldValidator4.errormessage = "Enter Name";
+MainContent_RequiredFieldValidator4.display = "None";
+MainContent_RequiredFieldValidator4.validationGroup = "R";
+MainContent_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator4.initialvalue = "";
+var MainContent_RequiredFieldValidator5 = document.all ? document.all["MainContent_RequiredFieldValidator5"] : document.getElementById("MainContent_RequiredFieldValidator5");
+MainContent_RequiredFieldValidator5.controltovalidate = "MainContent_txtFatherName";
+MainContent_RequiredFieldValidator5.focusOnError = "t";
+MainContent_RequiredFieldValidator5.errormessage = "Enter Father/Mothe/Husband Name";
+MainContent_RequiredFieldValidator5.display = "None";
+MainContent_RequiredFieldValidator5.validationGroup = "R";
+MainContent_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator5.initialvalue = "";
+var MainContent_regexpName = document.all ? document.all["MainContent_regexpName"] : document.getElementById("MainContent_regexpName");
+MainContent_regexpName.controltovalidate = "MainContent_txtDOB";
+MainContent_regexpName.focusOnError = "t";
+MainContent_regexpName.errormessage = "This date of birth is not validate.";
+MainContent_regexpName.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_regexpName.validationexpression = "^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\\d\\d$";
+var MainContent_RangeValidator2 = document.all ? document.all["MainContent_RangeValidator2"] : document.getElementById("MainContent_RangeValidator2");
+MainContent_RangeValidator2.controltovalidate = "MainContent_txtDOB";
+MainContent_RangeValidator2.focusOnError = "t";
+MainContent_RangeValidator2.errormessage = "Invalid DOB. It must be between 01-Jan-950 to 31-Dec-2002.";
+MainContent_RangeValidator2.evaluationfunction = "RangeValidatorEvaluateIsValid";
+MainContent_RangeValidator2.maximumvalue = "31-Dec-2002";
+MainContent_RangeValidator2.minimumvalue = "01-Jan-1930";
+var MainContent_RequiredFieldValidator14 = document.all ? document.all["MainContent_RequiredFieldValidator14"] : document.getElementById("MainContent_RequiredFieldValidator14");
+MainContent_RequiredFieldValidator14.controltovalidate = "MainContent_txtDOB";
+MainContent_RequiredFieldValidator14.focusOnError = "t";
+MainContent_RequiredFieldValidator14.errormessage = "Enter DOB";
+MainContent_RequiredFieldValidator14.display = "None";
+MainContent_RequiredFieldValidator14.validationGroup = "R";
+MainContent_RequiredFieldValidator14.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator14.initialvalue = "";
+var MainContent_RequiredFieldValidator13 = document.all ? document.all["MainContent_RequiredFieldValidator13"] : document.getElementById("MainContent_RequiredFieldValidator13");
+MainContent_RequiredFieldValidator13.controltovalidate = "MainContent_ddlGender";
+MainContent_RequiredFieldValidator13.focusOnError = "t";
+MainContent_RequiredFieldValidator13.errormessage = "Select your Gender";
+MainContent_RequiredFieldValidator13.validationGroup = "R";
+MainContent_RequiredFieldValidator13.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator13.initialvalue = "0";
+var MainContent_RequiredFieldValidator8 = document.all ? document.all["MainContent_RequiredFieldValidator8"] : document.getElementById("MainContent_RequiredFieldValidator8");
+MainContent_RequiredFieldValidator8.controltovalidate = "MainContent_ddlcast";
+MainContent_RequiredFieldValidator8.focusOnError = "t";
+MainContent_RequiredFieldValidator8.errormessage = "Select your cast category";
+MainContent_RequiredFieldValidator8.validationGroup = "R";
+MainContent_RequiredFieldValidator8.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator8.initialvalue = "0";
+var MainContent_RequiredFieldValidator9 = document.all ? document.all["MainContent_RequiredFieldValidator9"] : document.getElementById("MainContent_RequiredFieldValidator9");
+MainContent_RequiredFieldValidator9.controltovalidate = "MainContent_ddlfarmertype";
+MainContent_RequiredFieldValidator9.focusOnError = "t";
+MainContent_RequiredFieldValidator9.errormessage = "Select your farmer";
+MainContent_RequiredFieldValidator9.validationGroup = "R";
+MainContent_RequiredFieldValidator9.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator9.initialvalue = "0";
+var MainContent_RequiredFieldValidator10 = document.all ? document.all["MainContent_RequiredFieldValidator10"] : document.getElementById("MainContent_RequiredFieldValidator10");
+MainContent_RequiredFieldValidator10.controltovalidate = "MainContent_ddldistric";
+MainContent_RequiredFieldValidator10.focusOnError = "t";
+MainContent_RequiredFieldValidator10.errormessage = "Select your District";
+MainContent_RequiredFieldValidator10.validationGroup = "R";
+MainContent_RequiredFieldValidator10.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator10.initialvalue = "0";
+var MainContent_RequiredFieldValidator6 = document.all ? document.all["MainContent_RequiredFieldValidator6"] : document.getElementById("MainContent_RequiredFieldValidator6");
+MainContent_RequiredFieldValidator6.controltovalidate = "MainContent_ddlblock";
+MainContent_RequiredFieldValidator6.errormessage = "Select your Block";
+MainContent_RequiredFieldValidator6.validationGroup = "R";
+MainContent_RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator6.initialvalue = "0";
+var MainContent_RequiredFieldValidator7 = document.all ? document.all["MainContent_RequiredFieldValidator7"] : document.getElementById("MainContent_RequiredFieldValidator7");
+MainContent_RequiredFieldValidator7.controltovalidate = "MainContent_ddlpanchayat";
+MainContent_RequiredFieldValidator7.errormessage = "Select your Panchayat";
+MainContent_RequiredFieldValidator7.validationGroup = "R";
+MainContent_RequiredFieldValidator7.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator7.initialvalue = "0";
+var MainContent_RequiredFieldValidator12 = document.all ? document.all["MainContent_RequiredFieldValidator12"] : document.getElementById("MainContent_RequiredFieldValidator12");
+MainContent_RequiredFieldValidator12.controltovalidate = "MainContent_ddlvill";
+MainContent_RequiredFieldValidator12.errormessage = "Select your Village";
+MainContent_RequiredFieldValidator12.validationGroup = "R";
+MainContent_RequiredFieldValidator12.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator12.initialvalue = "0";
+var MainContent_RequiredFieldValidator3 = document.all ? document.all["MainContent_RequiredFieldValidator3"] : document.getElementById("MainContent_RequiredFieldValidator3");
+MainContent_RequiredFieldValidator3.controltovalidate = "MainContent_txtMobile";
+MainContent_RequiredFieldValidator3.errormessage = "Enter Mobile Number";
+MainContent_RequiredFieldValidator3.validationGroup = "R";
+MainContent_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator3.initialvalue = "";
+var MainContent_RegularExpressionValidator5 = document.all ? document.all["MainContent_RegularExpressionValidator5"] : document.getElementById("MainContent_RegularExpressionValidator5");
+MainContent_RegularExpressionValidator5.controltovalidate = "MainContent_txtMobile";
+MainContent_RegularExpressionValidator5.errormessage = "<br>Mobile Number must be 10 digit";
+MainContent_RegularExpressionValidator5.display = "Dynamic";
+MainContent_RegularExpressionValidator5.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_RegularExpressionValidator5.validationexpression = "^[0-9]{10}$";
+var MainContent_rqrfldvalbankname = document.all ? document.all["MainContent_rqrfldvalbankname"] : document.getElementById("MainContent_rqrfldvalbankname");
+MainContent_rqrfldvalbankname.controltovalidate = "MainContent_ddlbankname";
+MainContent_rqrfldvalbankname.errormessage = "Select your Bank";
+MainContent_rqrfldvalbankname.validationGroup = "R";
+MainContent_rqrfldvalbankname.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_rqrfldvalbankname.initialvalue = "0";
+var MainContent_regexifsc = document.all ? document.all["MainContent_regexifsc"] : document.getElementById("MainContent_regexifsc");
+MainContent_regexifsc.controltovalidate = "MainContent_txtifsccode";
+MainContent_regexifsc.focusOnError = "t";
+MainContent_regexifsc.errormessage = "IFSC code is not valid";
+MainContent_regexifsc.display = "Dynamic";
+MainContent_regexifsc.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_regexifsc.validationexpression = "^[A-Za-z]{4}[a-zA-Z0-9]{7}$";
+var MainContent_RequiredFieldValidator132 = document.all ? document.all["MainContent_RequiredFieldValidator132"] : document.getElementById("MainContent_RequiredFieldValidator132");
+MainContent_RequiredFieldValidator132.controltovalidate = "MainContent_txtifsccode";
+MainContent_RequiredFieldValidator132.errormessage = "Enter your IFSC Code";
+MainContent_RequiredFieldValidator132.validationGroup = "R";
+MainContent_RequiredFieldValidator132.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator132.initialvalue = "";
+var MainContent_rqrfldvalbanknac = document.all ? document.all["MainContent_rqrfldvalbanknac"] : document.getElementById("MainContent_rqrfldvalbanknac");
+MainContent_rqrfldvalbanknac.controltovalidate = "MainContent_txtaccount";
+MainContent_rqrfldvalbanknac.errormessage = "Enter your Account Number";
+MainContent_rqrfldvalbanknac.validationGroup = "R";
+MainContent_rqrfldvalbanknac.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_rqrfldvalbanknac.initialvalue = "";
+var MainContent_RequiredFieldValidator2 = document.all ? document.all["MainContent_RequiredFieldValidator2"] : document.getElementById("MainContent_RequiredFieldValidator2");
+MainContent_RequiredFieldValidator2.controltovalidate = "MainContent_txtaadhaar";
+MainContent_RequiredFieldValidator2.errormessage = "Enter Correct Aadhhar Number";
+MainContent_RequiredFieldValidator2.display = "Dynamic";
+MainContent_RequiredFieldValidator2.validationGroup = "R";
+MainContent_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator2.initialvalue = "";
+var MainContent_RegularExpressionValidator1 = document.all ? document.all["MainContent_RegularExpressionValidator1"] : document.getElementById("MainContent_RegularExpressionValidator1");
+MainContent_RegularExpressionValidator1.controltovalidate = "MainContent_txtaadhaar";
+MainContent_RegularExpressionValidator1.focusOnError = "t";
+MainContent_RegularExpressionValidator1.errormessage = "<br>Aadhhar Number must be 12 digit";
+MainContent_RegularExpressionValidator1.display = "Dynamic";
+MainContent_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+MainContent_RegularExpressionValidator1.validationexpression = "^[0-9]{12}$";
+var MainContent_ValidationSummary1 = document.all ? document.all["MainContent_ValidationSummary1"] : document.getElementById("MainContent_ValidationSummary1");
+MainContent_ValidationSummary1.showmessagebox = "True";
+MainContent_ValidationSummary1.showsummary = "False";
+MainContent_ValidationSummary1.validationGroup = "R";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+alert('You have already applied with the Mobile No..... !!!!!!!!!!!!!');
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('MainContent_ValidationSummary1');
+
+document.getElementById('MainContent_RequiredFieldValidator4').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator4'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator5').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator5'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"MainContent_TextBoxWatermarkExtender1_ClientState","WatermarkText":"DD-MM-YYYY","id":"MainContent_TextBoxWatermarkExtender1"}, null, null, $get("MainContent_txtDOB"));
+});
+
+document.getElementById('MainContent_regexpName').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_regexpName'));
+}
+
+document.getElementById('MainContent_RangeValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RangeValidator2'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CalendarBehavior, {"button":$get("MainContent_imgcal"),"format":"dd-MMM-yyyy","id":"MainContent_CalendarExtender1","popupPosition":3}, {"dateSelectionChanged":checkdate}, null, $get("MainContent_txtDOB"));
+});
+
+document.getElementById('MainContent_RequiredFieldValidator14').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator14'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator13').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator13'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator8').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator8'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator9').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator9'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator10').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator10'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator6').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator6'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator7').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator7'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator12').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator12'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator3').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator3'));
+}
+
+document.getElementById('MainContent_RegularExpressionValidator5').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RegularExpressionValidator5'));
+}
+
+document.getElementById('MainContent_rqrfldvalbankname').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_rqrfldvalbankname'));
+}
+
+document.getElementById('MainContent_regexifsc').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_regexifsc'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator132').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator132'));
+}
+
+document.getElementById('MainContent_rqrfldvalbanknac').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_rqrfldvalbanknac'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator2'));
+}
+
+document.getElementById('MainContent_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RegularExpressionValidator1'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","CancelControlID":"MainContent_btnCloseee","PopupControlID":"MainContent_pnlpopup","dynamicServicePath":"/RegFarmer/NewRegistrationPage.aspx","id":"MainContent_ModalPopupExtender1"}, null, null, $get("MainContent_btnShowPopup"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"MainContent_pnlPopupKCC","dynamicServicePath":"/RegFarmer/NewRegistrationPage.aspx","id":"MainContent_ModalPopupExtender2"}, null, null, $get("MainContent_btnShowPopupKCC"));
+});
+//]]>
+</script>
+</form>
+
+
+</body></html>
